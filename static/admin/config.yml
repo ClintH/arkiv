@@ -26,9 +26,9 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Creators", name: "creators", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Course", name: "title", widget: "string"}
+      - {label: "Creators", name: "creators", widget: "string"}
+      - {label: "Course", name: "course", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
