@@ -8,5 +8,6 @@ description: I dug a hole
 tags:
   - digging
   - outdoors
+coverImg: /img/uploads/digging.jpg
 ---
 Superb
