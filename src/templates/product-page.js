@@ -1,8 +1,8 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Features from '../components/Features'
-import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Features from '../components/Features';
+import Testimonials from '../components/Testimonials';
+import Pricing from '../components/Pricing';
 
 export const ProductPageTemplate = ({
   image,
@@ -13,7 +13,7 @@ export const ProductPageTemplate = ({
   main,
   testimonials,
   fullImage,
-  pricing,
+  pricing
 }) => (
   <section className="section section--gradient">
     <div className="container">
@@ -31,7 +31,7 @@ export const ProductPageTemplate = ({
                     boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
                     backgroundColor: '#f40',
                     color: 'white',
-                    padding: '1rem',
+                    padding: '1rem'
                   }}
                 >
                   {title}
@@ -103,7 +103,7 @@ export const ProductPageTemplate = ({
       </div>
     </div>
   </section>
-)
+);
 
 ProductPageTemplate.propTypes = {
   image: PropTypes.string,
@@ -111,26 +111,26 @@ ProductPageTemplate.propTypes = {
   heading: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
-    blurbs: PropTypes.array,
+    blurbs: PropTypes.array
   }),
   main: PropTypes.shape({
     heading: PropTypes.string,
     description: PropTypes.string,
     image1: PropTypes.object,
     image2: PropTypes.object,
-    image3: PropTypes.object,
+    image3: PropTypes.object
   }),
   testimonials: PropTypes.array,
   fullImage: PropTypes.string,
   pricing: PropTypes.shape({
     heading: PropTypes.string,
     description: PropTypes.string,
-    plans: PropTypes.array,
-  }),
-}
+    plans: PropTypes.array
+  })
+};
 
 const ProductPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark;
 
   return (
     <ProductPageTemplate
@@ -144,25 +144,31 @@ const ProductPage = ({ data }) => {
       fullImage={frontmatter.full_image}
       pricing={frontmatter.pricing}
     />
-  )
-}
+  );
+};
 
 ProductPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
-}
+      frontmatter: PropTypes.object
+    })
+  })
+};
 
-export default ProductPage
+export default ProductPage;
 
 export const productPageQuery = graphql`
   query ProductPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
-        image
+        image {
+          childImageSharp {
+            sizes(maxWidth: 760) {
+              srcSet
+            }
+          }
+        }
         heading
         description
         intro {
@@ -207,4 +213,4 @@ export const productPageQuery = graphql`
       }
     }
   }
-`
+`;

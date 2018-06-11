@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: master
 publish_mode: editorial_workflow
-media_folder: static/img
-public_folder: /img
+media_folder: static/uploads
+public_folder: /uploads
 
 collections:
   - name: "blog"
@@ -30,9 +30,11 @@ collections:
       - {label: "Creators", name: "creators", widget: "string"}
       - {label: "Course", name: "course", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Enrolment Year", name: "enrolmentYear", widget: "text"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Cover Image", name: "image", widget: "image", default: "blank_project.png"}
 
   - name: "pages"
     label: "Pages"
