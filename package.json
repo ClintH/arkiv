@@ -16,7 +16,7 @@
     "gatsby-plugin-sass": "^1.0.17",
     "gatsby-plugin-sharp": "^1.6.47",
     "gatsby-remark-images": "^1.5.66",
-    "gatsby-remark-relative-images": "file:../../../../repos/gatsby-remark-relative-images",
+    "gatsby-remark-relative-images": "ClintH/gatsby-remark-relative-images",
     "gatsby-remark-smartypants": "^1.4.12",
     "gatsby-remark-widows": "^1.0.0",
     "gatsby-source-filesystem": "^1.5.38",
