@@ -22,10 +22,6 @@ class TemplateWrapper extends React.Component {
     return (
       <div>
         <Helmet title="Arkiv.">
-          <link
-            href="https://fonts.googleapis.com/css?family=Nunito"
-            rel="stylesheet"
-          />
           <html lang="en" />
           <meta
             name="Description"
