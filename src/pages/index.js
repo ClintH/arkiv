@@ -65,9 +65,9 @@ export default class IndexPage extends React.Component {
                       {post.frontmatter.title}
                     </Link>
                   </p>
-                  <small className="">
+                  <div>
                     {post.frontmatter.creators}, {post.frontmatter.date}
-                  </small>
+                  </div>
                   <br />
                   <br />
 

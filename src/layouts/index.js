@@ -8,6 +8,7 @@ import NavbarFull from '../components/NavbarFull';
 import './all.sass';
 
 //const client = require('./client');
+require('typeface-nunito');
 
 // const TemplateWrapper = ({ children }) => (
 class TemplateWrapper extends React.Component {
@@ -20,12 +21,16 @@ class TemplateWrapper extends React.Component {
   render() {
     return (
       <div>
-        <Helmet title="Arkiv. Works from the Interaction Design bachelor programme at Malmö University">
+        <Helmet title="Arkiv.">
           <link
             href="https://fonts.googleapis.com/css?family=Nunito"
             rel="stylesheet"
           />
           <html lang="en" />
+          <meta
+            name="Description"
+            content="Works from the Interaction Design bachelor programme at Malmö University"
+          />
         </Helmet>
         {this.renderNav()}
         <div>{this.props.children()}</div>
