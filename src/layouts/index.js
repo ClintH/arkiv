@@ -78,7 +78,7 @@ export const projectThumbFragment = graphql`
       description
       templateKey
       date(formatString: "YYYY")
-      enrolmentYear
+      creators
       image {
         childImageSharp {
           sizes(maxWidth: 760) {
@@ -98,7 +98,6 @@ export const projectThumbFragment = graphql`
           }
         }
       }
-      creators
     }
   }
 `;
