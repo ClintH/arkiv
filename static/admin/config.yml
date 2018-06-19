@@ -21,16 +21,15 @@ collections:
 
   - name: "project"
     label: "Project"
-    folder: "src/pages/p"
+    folder: "src/pages/projects"
     create: true
     slug: "{{year}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Creators", name: "creators", widget: "string"}
-      - {label: "Course", name: "course", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Enrolment Year", name: "enrolmentYear", widget: "text"}
+      - {label: "Year Level", name: "yearLevel", widget: "text"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}

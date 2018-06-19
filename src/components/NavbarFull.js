@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-
-import logo from '../img/logo.svg';
+import Navbar from './Navbar';
 
 export default class NavbarFull extends React.Component {
   burgerClick(e) {
@@ -10,11 +9,9 @@ export default class NavbarFull extends React.Component {
   }
 
   renderLocation() {
-    console.log(this.props);
-    console.log(this.props.location.pathname.substr(0, 3));
-    if (this.props.location.pathname.substr(0, 3) === '/p/')
+    if (this.props.location.pathname.substr(0, 10) === '/projects/')
       return (
-        <Link to="/p" className="has-text-grey navbar-item">
+        <Link to="/projects/" className="has-text-grey navbar-item">
           Projects
         </Link>
       );
@@ -23,11 +20,7 @@ export default class NavbarFull extends React.Component {
 
   render() {
     return (
-      <nav
-        aria-label="main navigation"
-        role="navigation"
-        className="navbar is-transparent"
-      >
+      <nav aria-label="main navigation" role="navigation" className="navbar">
         <div className="container">
           <div className="navbar-brand">
             <Link
@@ -51,14 +44,7 @@ export default class NavbarFull extends React.Component {
             </a>
           </div>
           <div className="navbar-menu" id="navMenu">
-            <div className="navbar-end">
-              <Link to="/about" className="navbar-item">
-                About
-              </Link>
-              <Link to="/p" className="navbar-item">
-                Projects
-              </Link>
-            </div>
+            <Navbar className="navbar-end" />
           </div>
         </div>
       </nav>

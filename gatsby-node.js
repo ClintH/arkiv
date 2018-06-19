@@ -27,11 +27,6 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       result.errors.forEach(e => console.error(e.toString()));
       return Promise.reject(result.errors);
     }
-
-    // exports.onCreateNode = ({ node }) => {
-    //   fmImagesToRelative(node);
-    // };
-
     const posts = result.data.allMarkdownRemark.edges;
 
     posts.forEach(edge => {

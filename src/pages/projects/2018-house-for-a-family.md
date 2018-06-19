@@ -2,10 +2,10 @@
 templateKey: project-post
 title: House for a family
 creators: Bill and Hillary Clinton
-course: PHYS103
 date: '2018-06-10T10:14:39+02:00'
 description: A house for a family
 enrolmentYear: 2016
+yearLevel: 2
 tags:
   - architecture
 image: /uploads/house.jpg
@@ -60,12 +60,12 @@ Fugiens stagnata crevisse deseruitque matri illa, cui Ceyce Alcides tenebrosa
 danda: caluere procul. Fragiles remissis abdiderat quanta, auro mihi: celare huc
 fides sed? Medi sparsa.
 
-1. In silices genus
-2. Et talia quam medio amor quod patriaeque
-3. Auspicio duro
-4. Illi umbra declivis saxa bello imagine pallada
-5. Longa laesasque mox concussit autem terras constitit
-6. Clamor tamen viscera signaque domus vosne revertitur
+1.  In silices genus
+2.  Et talia quam medio amor quod patriaeque
+3.  Auspicio duro
+4.  Illi umbra declivis saxa bello imagine pallada
+5.  Longa laesasque mox concussit autem terras constitit
+6.  Clamor tamen viscera signaque domus vosne revertitur
 
 **In dixit fata** tempora congerie claris simillimus evicit, hinc sulcum.
 Secedit est mallet in citharae, parentis illius: tamen mihi bucera.
