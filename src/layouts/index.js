@@ -78,7 +78,6 @@ export const projectThumbFragment = graphql`
       title
       templateKey
       date(formatString: "YYYY")
-      creators
       image {
         childImageSharp {
           sizes(maxWidth: 760) {

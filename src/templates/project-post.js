@@ -12,7 +12,6 @@ export const ProjectPostTemplate = ({
   tags,
   title,
   image,
-  creators,
   helmet
 }) => {
   const PostContent = contentComponent || Content;
@@ -34,7 +33,7 @@ export const ProjectPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold has-text-white">
               {title}
             </h1>
-            <div className="is-size-6 is-uppercase">{creators}</div>
+            <div className="is-size-6 is-uppercase">creators</div>
             <div className="is-size-4">{description}</div>
           </div>
         </div>
@@ -65,8 +64,7 @@ ProjectPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  image: PropTypes.string,
-  creators: PropTypes.string
+  image: PropTypes.string
 };
 
 const ProjectPost = ({ data }) => {
@@ -80,7 +78,6 @@ const ProjectPost = ({ data }) => {
       tags={post.frontmatter.tags}
       title={post.frontmatter.title}
       image={post.frontmatter.image.childImageSharp.responsiveResolution.src}
-      creators={post.frontmatter.creators}
       helmet={<Helmet title={`Arkiv. ${post.frontmatter.title}`} />}
     />
   );
@@ -104,7 +101,6 @@ export const pageQuery = graphql`
         title
         description
         tags
-        creators
         image {
           childImageSharp {
             sizes(maxWidth: 760) {
