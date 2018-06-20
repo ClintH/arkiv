@@ -104,7 +104,6 @@ export const pageQuery = graphql`
         title
         description
         tags
-        enrolmentYear
         creators
         image {
           childImageSharp {
