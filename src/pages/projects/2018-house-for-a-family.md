@@ -7,7 +7,7 @@ description: A house for a family
 yearLevel: 2
 tags:
   - architecture
-image: /uploads/house.jpg
+image: /images/uploads/house.jpg
 ---
 
 # Est cupiasque summa simulac et

@@ -8,7 +8,7 @@ yearLevel: 1
 tags:
   - digging
   - outdoors
-image: /uploads/digging.jpg
+image: /images/uploads/digging.jpg
 ---
 
 Superb

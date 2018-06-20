@@ -74,8 +74,8 @@ export const projectThumbFragment = graphql`
       slug
     }
     frontmatter {
-      title
       description
+      title
       templateKey
       date(formatString: "YYYY")
       creators

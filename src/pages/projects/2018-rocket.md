@@ -8,7 +8,7 @@ yearLevel: 3
 tags:
   - outdoors
   - space
-image: /uploads/rocket.jpg
+image: /images/uploads/rocket.jpg
 ---
 
 Lorem ipsum.
