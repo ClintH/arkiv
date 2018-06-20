@@ -1,7 +1,7 @@
 {
   "name": "arkiv",
   "description": "arkiv site",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Clint Heyer",
   "dependencies": {
     "bulma": "^0.7.1",
