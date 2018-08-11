@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: 'Arkiv',
-    shortName: 'Arkiv'
+    title: 'Arkixd',
+    shortName: 'Arkixd'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    'gatsby-plugin-netlify-cms-paths',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -33,12 +34,19 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-relative-images'
+            resolve: 'gatsby-plugin-netlify-cms-paths'
           },
           {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 760
+            }
+          },
+          {
+            resolve: 'gatsby-remark-embed-video',
+            options: {
+              related: false,
+              noIframeBorder: true
             }
           },
           'gatsby-remark-smartypants',
@@ -57,8 +65,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Arkiv',
-        short_name: 'Arkiv',
+        name: 'Arkixd',
+        short_name: 'Arkixd',
         start_url: '/',
         background_color: '#e4022d',
         theme_color: '#ffffff',

@@ -43,12 +43,13 @@ export default class ProjectThumb extends React.Component {
             </Link>
           </p>
           <div>
-            {p.frontmatter.creators}, {p.frontmatter.date}
+            {p.frontmatter.creators ? p.frontmatter.creators + `, ` : ``}{' '}
+            {p.frontmatter.year}
           </div>
           <br />
 
           <p>
-            {p.frontmatter.description}
+            {p.frontmatter.subTitle}
             &nbsp;
             <Link
               title="Read more"

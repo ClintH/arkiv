@@ -15,6 +15,22 @@ export default class NavbarFull extends React.Component {
           Projects
         </Link>
       );
+    if (this.props.location.pathname.substr(0, 6) === '/tags/')
+      return (
+        <ol className="navbar-item">
+          <li>
+            <Link to="/projects/" className="has-text-grey navbar-item">
+              Projects
+            </Link>
+          </li>
+          -
+          <li>
+            <Link to="/tags/" className="has-text-grey navbar-item">
+              Tags
+            </Link>
+          </li>
+        </ol>
+      );
     else return '';
   }
 
@@ -27,7 +43,7 @@ export default class NavbarFull extends React.Component {
               to="/"
               className="has-text-weight-bold has-text-primary navbar-item"
             >
-              Arkiv.
+              Arkixd.
             </Link>
             {this.renderLocation()}
             <a

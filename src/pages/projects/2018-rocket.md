@@ -1,9 +1,10 @@
 ---
 templateKey: project-post
 title: Rocket
+subTitle: A rocket ship to the moon
 creators: Ada
-date: '2018-06-10T10:11:58+02:00'
-description: A rocket ship to the moon
+course:
+year: 2016
 yearLevel: 3
 tags:
   - outdoors

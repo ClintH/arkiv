@@ -70,13 +70,28 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
   });
 };
 
-const { fmImagesToRelative } = require('gatsby-remark-relative-images');
+//const { fmImagesToRelative } = require('gatsby-remark-relative-images');
+
+const remark = require('remark');
+const remarkHtml = require('remark-html');
 
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators;
-  fmImagesToRelative(node);
+  //fmImagesToRelative(node);
+
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode });
+    if (node.frontmatter.contributions) {
+      node.frontmatter.contributions.forEach(contrib => {
+        let x = remark()
+          .use(remarkHtml)
+          .processSync(contrib.description)
+          .toString();
+        contrib.description = x;
+        return contrib;
+      });
+    }
+
     createNodeField({
       name: `slug`,
       node,

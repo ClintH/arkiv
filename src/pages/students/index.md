@@ -28,4 +28,4 @@ title: Students. Past and present.
 
 [Martin Lindeborg](http://www.ux.martinlindeborg.com)
 
-Additions or corrections? Please email updates@arkiv.se.
+Additions or corrections? Please contact the programme coordinator.

@@ -7,7 +7,7 @@ const Footer = () => (
     <div className="container">
       <div className="content">
         <Link className="has-text-primary has-text-weight-bold" to="/">
-          Arkiv.
+          Arkixd.
         </Link>{' '}
         Works from the Interaction Design bachelor programme at Malmö
         University.

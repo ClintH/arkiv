@@ -8,12 +8,19 @@ import ProjectThumb from '../../components/ProjectThumb';
 
 class ProjectsPage extends React.Component {
   renderMap(map) {
-    const keys = Object.keys(map);
+    // Order projects in descending order (by year)
+    const keys = Object.keys(map)
+      .sort()
+      .reverse();
+
+    // Generate a snippet for a project
     const items = function(list) {
       return list.map(n => (
         <ProjectThumb key={n.node.id + '-thumb'} data={n.node} />
       ));
     };
+
+    // Process each group
     const groups = keys.map(key => (
       <div key={key + '-container'} className="container content">
         <h2>{key}</h2>
@@ -30,9 +37,9 @@ class ProjectsPage extends React.Component {
   render() {
     const projects = this.props.data.allMarkdownRemark.edges;
     const byYear = _.groupBy(projects, x => {
-      return x.node.frontmatter.date;
+      return x.node.frontmatter.year;
     });
-    const years = Object.keys(byYear);
+
     return (
       <section className="section">
         <Helmet title={`Arkiv. Projects`} />
@@ -49,7 +56,7 @@ export default ProjectsPage;
 export const pageQuery = graphql`
   query AllProjectsQuery {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { order: DESC, fields: [frontmatter___year] }
       filter: { frontmatter: { templateKey: { eq: "project-post" } } }
     ) {
       edges {

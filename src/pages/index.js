@@ -7,12 +7,15 @@ export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
+    const siteTitle = this.props.data.site.siteMetadata.title;
+
     return (
       <section className="section">
         <div className="container">
           <div className="content is-size-3">
-            <span className="has-text-weight-bold has-text-primary">Arkiv</span>.
-            Works from the{' '}
+            <span className="has-text-weight-bold has-text-primary">
+              {siteTitle}
+            </span>. Works from the{' '}
             <span className="has-background-light">
               &nbsp;
               <Link className="has-text-danger" to="/about">
@@ -47,8 +50,13 @@ IndexPage.propTypes = {
 
 export const pageQuery = graphql`
   query IndexQuery2 {
+    site {
+      siteMetadata {
+        title
+      }
+    }
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { order: DESC, fields: [frontmatter___year] }
       filter: { frontmatter: { templateKey: { eq: "project-post" } } }
     ) {
       edges {

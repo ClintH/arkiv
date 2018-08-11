@@ -31,32 +31,6 @@ class TemplateWrapper extends React.Component {
         <Footer />
       </div>
     );
-    // if (this.props.location.pathname == '/') {
-    //   return (
-    //     <div>
-    //       <Helmet title="Arkiv. Works from the Interaction Design bachelor programme at Malmö University">
-    //         <link
-    //           href="https://fonts.googleapis.com/css?family=Nunito"
-    //           rel="stylesheet"
-    //         />
-    //       </Helmet>
-    //       <div>{this.props.children()}</div>
-    //     </div>
-    //   );
-    // } else {
-    //   return (
-    //     <div>
-    //       <Helmet title="!Arkiv. Works from the Interaction Design bachelor programme at Malmö University">
-    //         <link
-    //           href="https://fonts.googleapis.com/css?family=Nunito"
-    //           rel="stylesheet"
-    //         />
-    //       </Helmet>
-    //       <NavbarFull />
-    //       <div>{this.props.children()}</div>
-    //     </div>
-    //   );
-    // }
   }
 }
 
@@ -74,10 +48,11 @@ export const projectThumbFragment = graphql`
       slug
     }
     frontmatter {
-      description
-      title
       templateKey
-      date(formatString: "YYYY")
+      title
+      subTitle
+      year
+      creators
       image {
         childImageSharp {
           sizes(maxWidth: 760) {
