@@ -5,7 +5,7 @@ subTitle: A design intervention approach
 course: Thesis
 creators: Marianne Bansell
 year: '2018'
-yearLevel: '1'
+yearLevel: '3'
 tags:
   - wearable
   - codesign
