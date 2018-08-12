@@ -29,9 +29,8 @@ export default class IndexPage extends React.Component {
               at Malmö University.
             </div>
           </div>
-
-          <br />
-          <br />
+        </section>
+        <section className="section">
           <main role="main" className="tile is-ancestor">
             {posts.map(({ node: post }) => (
               <div className="tile is-parent" key={post.id}>
