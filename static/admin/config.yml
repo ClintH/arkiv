@@ -22,24 +22,20 @@ collections:
         }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Sub Title', name: 'subTitle', widget: 'string' }
-      - { label: 'Course', name: 'course', required: 'false', widget: 'string' }
+      - { label: 'Course', name: 'course', required: false, widget: 'string' }
       - {
           label: 'Creators',
           name: 'creators',
           required: false,
           widget: 'string',
         }
-      - {
-          label: 'Created year',
-          name: 'year',
-          widget: 'number',
-          default: '2018',
-        }
+      - { label: 'Created year', name: 'year', widget: 'number', default: 2018 }
       - {
           label: 'Year Level',
           name: 'yearLevel',
-          widget: 'number',
+          widget: 'select',
           default: '1',
+          options: ['1', '2', '3'],
         }
       - { label: 'Description', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
