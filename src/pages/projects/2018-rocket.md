@@ -17,7 +17,7 @@ contributions:
     description: |-
       Fuelling the rocket is important.
 
-      ![](/images/uploads/fuel.jpg)
+      ![null](/images/uploads/fuel.jpg)
 ---
 
 Lorem ipsum.
