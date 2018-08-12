@@ -2,7 +2,7 @@ import { graphql } from 'gatsby';
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
-import ProjectThumb from '../components/ProjectThumb';
+import ProjectGrid from '../components/ProjectGrid';
 import Layout from '../components/Layout';
 
 export default class IndexPage extends React.Component {
@@ -31,13 +31,7 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
         <section className="section">
-          <main role="main" className="tile is-ancestor">
-            {posts.map(({ node: post }) => (
-              <div className="tile is-parent" key={post.id}>
-                <ProjectThumb data={post} />
-              </div>
-            ))}
-          </main>
+          <ProjectGrid projects={posts} />
         </section>
       </Layout>
     );

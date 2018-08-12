@@ -36,13 +36,13 @@ export default class ProjectThumb extends React.Component {
         <div className="tile is-child">
           <p>
             <Link
-              className="has-text-dark is-size-4 has-text-weight-semibold"
+              className="has-text-dark title has-text-weight-semibold"
               to={p.fields.slug}
             >
               {p.frontmatter.title}
             </Link>
           </p>
-          <div>
+          <div className="subtitle">
             {p.frontmatter.creators ? p.frontmatter.creators + `, ` : ``}{' '}
             {p.frontmatter.year}
           </div>

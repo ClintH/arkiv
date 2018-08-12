@@ -21,7 +21,12 @@ collections:
           default: 'project-post',
         }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Sub Title', name: 'subTitle', widget: 'string' }
+      - {
+          label: 'Sub Title',
+          name: 'subTitle',
+          required: false,
+          widget: 'string',
+        }
       - { label: 'Course', name: 'course', required: false, widget: 'string' }
       - {
           label: 'Creators',
@@ -33,12 +38,12 @@ collections:
       - {
           label: 'Year Level',
           name: 'yearLevel',
-          widget: 'string',
+          widget: 'list',
           default: 'First',
           options: ['First', 'Second', 'Third'],
         }
-      - { label: 'Description', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Description', name: 'body', widget: 'markdown' }
       - {
           label: 'Cover Image',
           name: 'image',

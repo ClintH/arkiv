@@ -3,7 +3,8 @@ import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 import _ from 'lodash';
 import Layout from '../../components/Layout';
-import ProjectThumb from '../../components/ProjectThumb';
+//import ProjectThumb from '../../components/ProjectThumb';
+import ProjectGrid from '../../components/ProjectGrid';
 
 class ProjectsPage extends React.Component {
   renderMap(map) {
@@ -13,23 +14,33 @@ class ProjectsPage extends React.Component {
       .reverse();
 
     // Generate a snippet for a project
-    const items = function(list) {
-      return list.map(n => (
-        <ProjectThumb key={n.node.id + '-thumb'} data={n.node} />
-      ));
-    };
+    // const items = function(list) {
+    //   return list.map(n => (
+    //     <ProjectThumb key={n.node.id + '-thumb'} data={n.node} />
+    //   ));
+    // };
 
     // Process each group
-    const groups = keys.map(key => (
-      <div key={key + '-container'} className="container content">
-        <h2>{key}</h2>
-        <div className="tile is-ancestor">
-          <div key={key + '-tile'} className="c tile is-parent">
-            {items(map[key])}
-          </div>
+    // const groups = keys.map(key => (
+    //   <div key={key + '-container'} className="container content">
+    //     <h2>{key}</h2>
+    //     <div className="tile is-ancestor">
+    //       <div key={key + '-tile'} className="c tile is-parent">
+    //         {items(map[key])}
+    //       </div>
+    //     </div>
+    //   </div>
+    // ));
+
+    // Render each group as a grid
+    const groups = keys.map(key => {
+      return (
+        <div key={key + '-container'} className="container content">
+          <h2>{key}</h2>
+          <ProjectGrid projects={map[key]} />
         </div>
-      </div>
-    ));
+      );
+    });
     return groups;
   }
 

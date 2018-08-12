@@ -44,8 +44,8 @@ export const ProjectPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold has-text-white">
               {title}
             </h1>
-            <div className="is-size-6 is-uppercase">{credits}</div>
-            <div className="is-size-4">{subTitle}</div>
+            <div className="subtitle is-size-4 has-text-white">{subTitle}</div>
+            <div className="is-size-6 is-uppercase ">{credits}</div>
           </div>
         </div>
       </section>
