@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: master
+  squash_merges: true
 publish_mode: editorial_workflow
 media_folder: static/images/uploads
 public_folder: /images/uploads
@@ -38,11 +39,11 @@ collections:
       - {
           label: 'Year Level',
           name: 'yearLevel',
-          widget: 'list',
+          widget: 'select',
           default: 'First',
           options: ['First', 'Second', 'Third'],
         }
-      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Tags', name: 'tags', widget: 'tags' }
       - { label: 'Description', name: 'body', widget: 'markdown' }
       - {
           label: 'Cover Image',
