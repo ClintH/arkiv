@@ -34,8 +34,8 @@ collections:
           label: 'Year Level',
           name: 'yearLevel',
           widget: 'select',
-          default: '1',
-          options: ['1', '2', '3'],
+          default: 1,
+          options: [1, 2, 3],
         }
       - { label: 'Description', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
@@ -43,7 +43,7 @@ collections:
           label: 'Cover Image',
           name: 'image',
           widget: 'image',
-          default: /images/uploads/blank_project.jpg',
+          default: /images/uploads/blank_project.jpg,
         }
       - {
           label: Contributions,

@@ -21,13 +21,14 @@ const ProjectPagePreview = ({ entry, widgetFor }) => {
   const contribs = entryContribs ? entryContribs.toJS() : [];
 
   const entryTags = entry.getIn(['data', 'tags']);
-  const tags = [];
+  let tags = [];
   try {
-    entryTags ? entryTags.toJS() : [];
+    tags = entryTags ? entryTags.toJS() : [];
   } catch (e) {
+    console.log(e);
     console.dir(entryTags);
   }
-  
+
   return (
     <ProjectPostTemplate
       image={entry.getIn(['data', 'image'])}

@@ -17,9 +17,16 @@ export const ProjectPostTemplate = ({
   image,
   course,
   helmet,
+  creators,
   contributions
 }) => {
   const PostContent = contentComponent || Content;
+
+  let credits = '';
+  if (creators) credits = creators + ', ';
+  if (year) credits += year;
+  if (course) credits += ' ' + course;
+
   return (
     <Layout location="projects">
       <section className="hero has-text-white">
@@ -37,15 +44,13 @@ export const ProjectPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold has-text-white">
               {title}
             </h1>
-            <div className="is-size-6 is-uppercase">
-              {year} {course}
-            </div>
+            <div className="is-size-6 is-uppercase">{credits}</div>
             <div className="is-size-4">{subTitle}</div>
           </div>
         </div>
       </section>
       <section className="section">
-        <div className="container content">
+        <div className="container content is-size-5">
           <PostContent content={content} />
         </div>
       </section>
@@ -98,6 +103,7 @@ const ProjectPost = ({ data }) => {
       year={fm.year}
       course={fm.course}
       contributions={fm.contributions}
+      creators={fm.creators}
       image={fm.image.childImageSharp.fixed.src}
       helmet={<Helmet title={`Arkixd. ${fm.title}`} />}
     />
@@ -123,6 +129,7 @@ export const pageQuery = graphql`
         title
         subTitle
         tags
+        creators
         contributions {
           description
           creators
