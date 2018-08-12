@@ -4,6 +4,7 @@
   "version": "0.0.2",
   "author": "Clint Heyer",
   "dependencies": {
+    "@babel/core": "7.0.0-beta.52",
     "@babel/runtime": "7.0.0-beta.52",
     "bulma": "^0.7.1",
     "gatsby": "next",
@@ -57,7 +58,5 @@
   "devDependencies": {
     "prettier": "^1.7.4"
   },
-  "peerDependencies": {
-    "@babel/core": "7.0.0-beta.52"
-  }
+  "peerDependencies": {}
 }
