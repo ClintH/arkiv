@@ -1,6 +1,5 @@
 ---
-templateKey: 'about-page'
-path: /students
+templateKey: about-page
 title: Students. Past and present.
 ---
 
@@ -9,6 +8,8 @@ title: Students. Past and present.
 # 2018
 
 [Marcus Bader](http://marcusbader.000webhostapp.com/)
+
+[Marianne Bansell](https://mbansell.firebaseapp.com/)
 
 [Emil Berzén](http://www.berzen.se)
 
