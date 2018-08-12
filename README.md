@@ -66,6 +66,18 @@ contributions:
 
 Note that the `description` field can contain multi-line Markdown when the special `|-` characters are added to the end.
 
+## Images
+
+Images can be referenced with Markdown: `!()[url 'title']`, where `url` is the path to your image, and `title` is a caption for the image. Make sure it's enclosed in quote marks and that quote marks aren't inside it. The `title` is optional but encouraged.
+
+You must upload your image in the format of `year-lastname-number`, eg `2018-jensen-fig1.jpg`.
+
+Example:
+
+```
+![](/images/uploads/2018-hakansson-fig10.jpg 'Testers found that ...')
+```
+
 # Development
 
 Install pre-reqs

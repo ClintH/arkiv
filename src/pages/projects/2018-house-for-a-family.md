@@ -3,9 +3,9 @@ templateKey: project-post
 title: House for a family
 subTitle: A house for a family
 creators: Bill and Hillary Clinton
-course:
+? course
 year: 2018
-yearLevel: 2
+yearLevel: 'Second'
 tags:
   - architecture
 image: /images/uploads/house.jpg

@@ -4,7 +4,7 @@ title: A hole
 subTitle: I dug a hole
 course: Digital prototyping
 year: 2018
-yearLevel: 1
+yearLevel: '1'
 tags:
   - digging
   - outdoors
@@ -21,7 +21,6 @@ contributions:
       Something else.
     creators:
       - Contributor 2.1
-
 ---
 
 The brief of this project was ...

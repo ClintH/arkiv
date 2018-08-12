@@ -33,9 +33,9 @@ collections:
       - {
           label: 'Year Level',
           name: 'yearLevel',
-          widget: 'select',
-          default: 1,
-          options: [1, 2, 3],
+          widget: 'string',
+          default: 'First',
+          options: ['First', 'Second', 'Third'],
         }
       - { label: 'Description', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list' }

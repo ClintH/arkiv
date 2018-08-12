@@ -5,7 +5,7 @@ subTitle: A rocket ship to the moon
 course: Prototyping
 creators: Ada
 year: 2016
-yearLevel: 3
+yearLevel: 'Third'
 tags:
   - outdoors
   - space

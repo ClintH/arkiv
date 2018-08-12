@@ -7,7 +7,7 @@ subTitle: >-
 course: Thesis
 creators: Jakob Håkonsson
 year: 2018
-yearLevel: 3
+yearLevel: 'Third'
 tags:
   - haptics
   - vr
