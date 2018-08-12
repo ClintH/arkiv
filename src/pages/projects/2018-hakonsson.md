@@ -1,6 +1,6 @@
 ---
 templateKey: project-post
-title: Haptic-Enhanced Presence in VR
+title: Haptic-enhanced presence in VR
 subTitle: >-
   Exploring the importance of haptic feedback in virtual environments to achieve
   presence
@@ -10,7 +10,7 @@ year: 2018
 yearLevel: 'Third'
 tags:
   - haptics
-  - vr
+  - mixed reality
 image: /images/uploads/2018-hakansson-fig11.jpg
 ---
 

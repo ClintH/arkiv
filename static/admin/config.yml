@@ -49,7 +49,7 @@ collections:
           label: 'Cover Image',
           name: 'image',
           widget: 'image',
-          default: /images/uploads/blank_project.jpg,
+          default: /images/uploads/blank-project.jpg,
         }
       - {
           label: Contributions,

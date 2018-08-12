@@ -10,7 +10,7 @@ tags:
   - wearable
   - codesign
   - healthcare
-image: /images/uploads/blank_project.jpg
+image: /images/uploads/blank-project.jpg
 ---
 
 This thesis project is exploring future smartwatch use within elderly care. The user-centered designing phase uses a design intervention approach, where design and research happen simultaneously.
@@ -20,3 +20,5 @@ The research question is: _"How can a smartwatch be used within the elderly care
 The main participants in the field studies and workshops are end-users, caregivers within the elderly home care and an elderly care center. The outcome shows they are positive towards an imagined future containing smartwatches as a work tool. They see advantages with the wearable and glanceable technology, like freed hands, less to carry and simpler interactions in comparison to a smart phone.
 
 The study also shows positive effects of using interaction design for a company’s design process, and exploration of new technology.
+
+![Caregivers acting out watch placements](/images/uploads/2018-bansell-15.jpg 'Caregivers acting out watch placements')

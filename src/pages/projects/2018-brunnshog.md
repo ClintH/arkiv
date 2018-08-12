@@ -1,14 +1,14 @@
 ---
 templateKey: project-post
-title: A hole
-subTitle: I dug a hole
+title: Brunnshög development
+subTitle: Prototyping the future
 course: Digital prototyping
 year: 2018
+creators: ''
 yearLevel: 'First'
 tags:
-  - digging
-  - outdoors
-image: /images/uploads/digging.jpg
+  - prototyping
+image: /images/uploads/blank-project.jpg
 contributions:
   - title: Contrib 1
     description: This is contribution #1
@@ -17,8 +17,7 @@ contributions:
       - Contributor 1.2
   - title: Contrib 2
     description: >
-      This is contribution #2 _Test_ of formatting. <iframe width="560" height="315" src="https://www.youtube.com/embed/y4eOe1xLCvQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      Something else.
+      This is contribution #2
     creators:
       - Contributor 2.1
 ---
