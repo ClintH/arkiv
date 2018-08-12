@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 
 export default class ProjectThumb extends React.Component {
   render() {
@@ -11,7 +11,7 @@ export default class ProjectThumb extends React.Component {
           style={{
             height: '20em',
             backgroundImage: `url(${
-              p.frontmatter.image.childImageSharp.responsiveResolution.src
+              p.frontmatter.image.childImageSharp.fixed.src
             })`,
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',

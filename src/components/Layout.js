@@ -1,8 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
+import { graphql } from 'gatsby';
 
-import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import NavbarFull from '../components/NavbarFull';
 import './all.sass';
@@ -10,33 +9,29 @@ import './all.sass';
 require('typeface-nunito');
 
 class TemplateWrapper extends React.Component {
-  renderNav() {
-    if (this.props.location.pathname !== '/') {
-      return <NavbarFull location={this.props.location} />;
+  renderNav(location) {
+    if (location !== 'main') {
+      return <NavbarFull location={location} />;
     }
   }
 
   render() {
     return (
       <div>
-        <Helmet title="Arkiv.">
+        <Helmet title="Arkixd.">
           <html lang="en" />
           <meta
             name="Description"
             content="Works from the Interaction Design bachelor programme at Malmö University"
           />
         </Helmet>
-        {this.renderNav()}
-        <div>{this.props.children()}</div>
+        {this.renderNav(this.props.location)}
+        <div>{this.props.children}</div>
         <Footer />
       </div>
     );
   }
 }
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func
-};
 
 export default TemplateWrapper;
 
@@ -55,10 +50,10 @@ export const projectThumbFragment = graphql`
       creators
       image {
         childImageSharp {
-          sizes(maxWidth: 760) {
+          fluid(maxWidth: 760) {
             srcSet
           }
-          responsiveResolution(
+          fixed(
             width: 500
             duotone: { highlight: "#e4788c", shadow: "#e4022d", opacity: 40 }
           ) {

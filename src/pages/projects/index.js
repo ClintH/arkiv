@@ -1,9 +1,8 @@
 import React from 'react';
-import { kebabCase } from 'lodash';
+import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
-import Link from 'gatsby-link';
 import _ from 'lodash';
-
+import Layout from '../../components/Layout';
 import ProjectThumb from '../../components/ProjectThumb';
 
 class ProjectsPage extends React.Component {
@@ -41,13 +40,15 @@ class ProjectsPage extends React.Component {
     });
 
     return (
-      <section className="section">
-        <Helmet title={`Arkiv. Projects`} />
-        <div className="container content">
-          <h1>Projects</h1>
-        </div>
-        {this.renderMap(byYear)}
-      </section>
+      <Layout>
+        <section className="section">
+          <Helmet title={`Arkiv. Projects`} />
+          <div className="container content">
+            <h1>Projects</h1>
+          </div>
+          {this.renderMap(byYear)}
+        </section>
+      </Layout>
     );
   }
 }

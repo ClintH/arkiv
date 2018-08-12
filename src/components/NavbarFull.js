@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import Navbar from './Navbar';
 
 export default class NavbarFull extends React.Component {
@@ -9,13 +9,13 @@ export default class NavbarFull extends React.Component {
   }
 
   renderLocation() {
-    if (this.props.location.pathname.substr(0, 10) === '/projects/')
+    if (this.props.location === 'projects')
       return (
         <Link to="/projects/" className="has-text-grey navbar-item">
           Projects
         </Link>
       );
-    if (this.props.location.pathname.substr(0, 6) === '/tags/')
+    if (this.props.location === 'tags')
       return (
         <ol className="navbar-item">
           <li>
@@ -52,6 +52,7 @@ export default class NavbarFull extends React.Component {
               aria-label="menu"
               aria-expanded="false"
               id="navMenuBurger"
+              href="#ignored"
               onClick={this.burgerClick}
             >
               <span aria-hidden="true" />

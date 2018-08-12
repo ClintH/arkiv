@@ -1,9 +1,11 @@
+import { graphql } from 'gatsby';
 import React from 'react';
 import PropTypes from 'prop-types';
 import { kebabCase } from 'lodash';
 import Helmet from 'react-helmet';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 import Content, { HTMLContent } from '../components/Content';
+import Layout from '../components/Layout';
 
 export const ProjectPostTemplate = ({
   content,
@@ -18,9 +20,8 @@ export const ProjectPostTemplate = ({
   contributions
 }) => {
   const PostContent = contentComponent || Content;
-
   return (
-    <div>
+    <Layout location="projects">
       <section className="hero has-text-white">
         <div
           className="hero-body"
@@ -79,19 +80,8 @@ export const ProjectPostTemplate = ({
           ) : null}
         </div>
       </section>
-    </div>
+    </Layout>
   );
-};
-
-ProjectPostTemplate.propTypes = {
-  title: PropTypes.string,
-  subTitle: PropTypes.string,
-  year: PropTypes.number,
-  course: PropTypes.string,
-  content: PropTypes.string.isRequired,
-  contentComponent: PropTypes.func,
-  image: PropTypes.string,
-  contributions: PropTypes.array
 };
 
 const ProjectPost = ({ data }) => {
@@ -108,8 +98,8 @@ const ProjectPost = ({ data }) => {
       year={fm.year}
       course={fm.course}
       contributions={fm.contributions}
-      image={fm.image.childImageSharp.responsiveResolution.src}
-      helmet={<Helmet title={`Arkiv. ${fm.title}`} />}
+      image={fm.image.childImageSharp.fixed.src}
+      helmet={<Helmet title={`Arkixd. ${fm.title}`} />}
     />
   );
 };
@@ -140,10 +130,10 @@ export const pageQuery = graphql`
         }
         image {
           childImageSharp {
-            sizes(maxWidth: 760) {
+            fluid(maxWidth: 760) {
               srcSet
             }
-            responsiveResolution(
+            fixed(
               width: 600
               duotone: { highlight: "#e4788c", shadow: "#e4022d", opacity: 70 }
             ) {
