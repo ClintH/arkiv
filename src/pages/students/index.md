@@ -17,6 +17,8 @@ title: Students. Past and present.
 
 [Oskar Hansson](https://oskarbhansson.nu/)
 
+[Clara Lundborg](http://claralundborg.com/)
+
 [Andrée Rehnberg](http://andreerehnberg.com)
 
 [Robin Medin](https://robinmedin.com/)
