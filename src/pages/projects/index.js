@@ -3,7 +3,6 @@ import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 import _ from 'lodash';
 import Layout from '../../components/Layout';
-//import ProjectThumb from '../../components/ProjectThumb';
 import ProjectGrid from '../../components/ProjectGrid';
 
 class ProjectsPage extends React.Component {
