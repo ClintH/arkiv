@@ -8,6 +8,7 @@ yearLevel: 'Third'
 tags:
   - service design
   - hospitality
+  - codesign
 image: /images/uploads/2018-nerlund-21.jpg
 ---
 

@@ -19,6 +19,8 @@ title: Students. Past and present.
 
 [Andrée Rehnberg](http://andreerehnberg.com)
 
+[Robin Medin](https://robinmedin.com/)
+
 [Amina Muftic](http://www.aminamuftic.com)
 
 # Current

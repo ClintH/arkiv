@@ -20,7 +20,8 @@ export default class ProjectThumb extends React.Component {
             backgroundColor: 'black',
             color: 'white',
             display: 'inline-block',
-            width: '100%'
+            width: '100%',
+            minHeight: '10em'
           }}
         >
           <Link
