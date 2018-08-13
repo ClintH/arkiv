@@ -37,7 +37,7 @@ export default class ProjectThumb extends React.Component {
         <div className="tile is-child">
           <p>
             <Link
-              className="has-text-dark title has-text-weight-semibold"
+              className="has-text-dark title is-4 has-text-weight-semibold"
               to={p.fields.slug}
             >
               {p.frontmatter.title}
