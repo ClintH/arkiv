@@ -1,5 +1,5 @@
 ---
-templateKey: 'about-page'
+templateKey: 'collaborate-page'
 path: /collaborate
 title: Collaborate.
 ---
@@ -40,3 +40,5 @@ Examples of industry-anchored thesis projects have included:
 - Identifying a problem with an organisation's work practices and devising a way to improve it
 - Understanding how a firm's product is used and understood and identifying opportunities to improve it
 - Speculative investigations of new forms of interactivity that relate to the organisation's interests
+
+![](/images/collab-3.jpg)

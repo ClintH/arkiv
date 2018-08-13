@@ -52,7 +52,7 @@ class ProjectsPage extends React.Component {
     return (
       <Layout>
         <section className="section">
-          <Helmet title={`Arkiv. Projects`} />
+          <Helmet title={`Arkixd. Projects`} />
           <div className="container content">
             <h1>Projects</h1>
           </div>
