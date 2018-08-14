@@ -17,8 +17,7 @@ export const ProjectPostTemplate = ({
   image,
   course,
   helmet,
-  creators,
-  contributions
+  creators
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -26,7 +25,22 @@ export const ProjectPostTemplate = ({
   if (creators) credits = creators + ', ';
   if (year) credits += year;
   if (course) credits += ' ' + course;
-
+  /*
+      {contributions && contributions.length ? (
+        <section className="section">
+          {contributions.map(contrib => (
+            <div
+              key={contrib.title.replace(' ', '') + `Contrib`}
+              className="container content"
+            >
+              <h2>{contrib.title}</h2>
+              <div className="h2Sub">{contrib.creators.join(', ')}</div>
+              <div dangerouslySetInnerHTML={{ __html: contrib.description }} />
+            </div>
+          ))}
+        </section>
+      ) : null}
+      */
   return (
     <Layout location="projects">
       <section className="hero has-text-white">
@@ -54,21 +68,6 @@ export const ProjectPostTemplate = ({
           <PostContent content={content} />
         </div>
       </section>
-
-      {contributions && contributions.length ? (
-        <section className="section">
-          {contributions.map(contrib => (
-            <div
-              key={contrib.title.replace(' ', '') + `Contrib`}
-              className="container content"
-            >
-              <h2>{contrib.title}</h2>
-              <div className="h2Sub">{contrib.creators.join(', ')}</div>
-              <div dangerouslySetInnerHTML={{ __html: contrib.description }} />
-            </div>
-          ))}
-        </section>
-      ) : null}
 
       <section className="section">
         <div className="container content">
@@ -102,7 +101,7 @@ const ProjectPost = ({ data }) => {
       tags={fm.tags}
       year={fm.year}
       course={fm.course}
-      contributions={fm.contributions}
+      /*contributions={fm.contributions}*/
       creators={fm.creators}
       image={fm.image.childImageSharp.fixed.src}
       helmet={<Helmet title={`Arkixd. ${fm.title}`} />}
@@ -118,6 +117,13 @@ ProjectPost.propTypes = {
 
 export default ProjectPost;
 
+/*
+contributions {
+  description
+  creators
+  title
+}
+*/
 export const pageQuery = graphql`
   query ProjectPostById($id: String!) {
     markdownRemark(id: { eq: $id }) {
@@ -130,11 +136,6 @@ export const pageQuery = graphql`
         subTitle
         tags
         creators
-        contributions {
-          description
-          creators
-          title
-        }
         image {
           childImageSharp {
             fluid(maxWidth: 760) {
