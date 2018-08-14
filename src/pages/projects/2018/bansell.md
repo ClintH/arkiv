@@ -21,4 +21,4 @@ The main participants in the field studies and workshops are end-users, caregive
 
 The study also shows positive effects of using interaction design for a company’s design process, and exploration of new technology.
 
-![Caregivers acting out watch placements](/images/uploads/2018-bansell-15.jpg 'Caregivers acting out watch placements')
+![Caregivers acting out watch placements](/images/uploads/2018/bansell-15.jpg 'Caregivers acting out watch placements')

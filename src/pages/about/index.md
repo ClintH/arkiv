@@ -158,13 +158,7 @@ You will develop reflective, critical approaches, understanding not only how to 
       <div class="columns is-centered">
         <div class="column is-8 ">
           <h1>Structure</h1>
-          <p>For students starting in 2018, the programme looks as follows.
-          Please
-          <a href="https://edu.mau.se/en/Program/TGIDE">
-            refer to the syllabus for full course information and
-            details
-          </a>
-          .</p>
+          <p>For students starting in 2018, the programme looks as follows.</p>
                   <div class="notification is-size-7 is-link">
           For a formal description of the programme and further
           information about who to contact or how to apply, please see

@@ -7,8 +7,7 @@ import Layout from '../components/Layout';
 
 export default class IndexPage extends React.Component {
   render() {
-    const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
+    const { edges: posts } = this.props.data.allMarkdownRemark;
     const siteTitle = this.props.data.site.siteMetadata.title;
 
     return (

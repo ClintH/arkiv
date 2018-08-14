@@ -11,11 +11,13 @@ tags:
   - head mounted display
   - logistics
   - gesture
-image: /images/uploads/2018-medin-alt.jpg
+image: /images/uploads/2018/medin-alt.jpg
 ---
 
 This thesis investigates how gesture-driven interfaces, integrated in HMD-based (Head-Mounted Display) Augmented Reality (AR) devices can be used in the context of order picking processes in logistic warehouses as a substitute to existing solutions for visualisation and interaction with order picking lists: which hand gestures should be used? What qualities are essential for designing a successful substitute? By applying an User-Centered Design approach, generative ideation methodologies, prototyping and usability testing this research results in a contribution to a framework of design guidelines for designing gesture-driven AR in the order picking process, as well as a proposition of a gestural interaction language grounded in both earlier research and empirical findings. The empirical findings include details of the end users' gestural interaction preferences and content-related considerations, which was implemented in a low fidelity prototype and evaluated in the contextual domain of the end users.
 
-![Sketch of the AR smart glass prototype](/images/uploads/2018-medin-18.jpg 'Sketch of the AR smart glass prototype')
+<a class="button" href="https://robinmedin.com/">See Robin's portfolio</a>
 
-![The prototype used during the usability testing sessions, with the 'screen' containing the order picking list attached in the field of view at a comfortable distance](/images/uploads/2018-medin-20.jpg 'The prototype used during the usability testing sessions, with the "screen" containing the order picking list attached in the field of view at a comfortable distance')
+![Sketch of the AR smart glass prototype](/images/uploads/2018/medin-18.jpg 'Sketch of the AR smart glass prototype')
+
+![The prototype used during the usability testing sessions, with the 'screen' containing the order picking list attached in the field of view at a comfortable distance](/images/uploads/2018/medin-20.jpg 'The prototype used during the usability testing sessions, with the "screen" containing the order picking list attached in the field of view at a comfortable distance')
