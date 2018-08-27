@@ -29,10 +29,6 @@ title: Students. Past and present.
 
 [Linn Nerlund](https://nerlunds.com/)
 
-# Graduation 2017
-
-[Anton Blomster](anton.blomster@gmail.com)
-
 # Current
 
 [Daniel Alfredsson](http://daniel-alfredsson.com)
