@@ -27,6 +27,11 @@ export default class IndexPage extends React.Component {
               </span>
               at Malmö University.
             </div>
+            <div className="content is-size-4">
+              Browse <a href="projects">projects</a>,
+              <a href="about">read about the programme</a> or&nbsp;
+              <a href="collaborate">how to collaborate</a>.
+            </div>
           </div>
         </section>
         <section className="section">

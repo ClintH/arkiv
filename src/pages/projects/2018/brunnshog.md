@@ -13,7 +13,7 @@ tags:
   - tangible
   - kids
   - mixed reality
-image: /images/uploads/blank-project.jpg
+image: /images/uploads/2018/brunnshog-1.jpg
 ---
 
 In collaboration with Lund municipality, the students of the first year _Digital Prototyping_ course investigated the opportunity for digital technologies in relation to the [Brunnshög development](https://www.lund.se/brunnshog/). Eventually, the development might support living and work for 40,000 people, especially in relation to the high-tech [European Spallation Source](https://europeanspallationsource.se/) and [MAX IV](https://www.maxiv.lu.se/) scientific research centres.

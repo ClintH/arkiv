@@ -43,9 +43,8 @@ export default class ProjectThumb extends React.Component {
               {p.frontmatter.title}
             </Link>
           </p>
-          <div className="subtitle">
-            {p.frontmatter.creators ? p.frontmatter.creators + `, ` : ``}{' '}
-            {p.frontmatter.year}
+          <div className="subtitle is-6">
+            {p.frontmatter.creators ? p.frontmatter.creators : ``}{' '}
           </div>
           <br />
 

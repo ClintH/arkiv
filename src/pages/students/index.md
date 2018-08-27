@@ -5,7 +5,7 @@ title: Students. Past and present.
 
 (a selection)
 
-# 2018
+# Graduation 2018
 
 [Marcus Bader](http://marcusbader.000webhostapp.com/)
 
@@ -17,6 +17,8 @@ title: Students. Past and present.
 
 [Oskar Hansson](https://oskarbhansson.nu/)
 
+[Ida Hammer Ingerslev](https://idahammer.myportfolio.com/)
+
 [Clara Lundborg](http://claralundborg.com/)
 
 [Andrée Rehnberg](http://andreerehnberg.com)
@@ -24,6 +26,12 @@ title: Students. Past and present.
 [Robin Medin](https://robinmedin.com/)
 
 [Amina Muftic](http://www.aminamuftic.com)
+
+[Linn Nerlund](https://nerlunds.com/)
+
+# Graduation 2017
+
+[Anton Blomster](anton.blomster@gmail.com)
 
 # Current
 
