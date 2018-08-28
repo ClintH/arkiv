@@ -60,7 +60,7 @@ Getting kids to move around in the area physically can make them feel more at ho
 
 <div class="section is-size-6">
 <div class="title">AR Bus Stop</div>
-<div class="subtitle is-uppercase">Benjamin Dannegard, Pedro Marinho, Robin Schritter, Theo Nordahl</div>
+<div class="subtitle is-uppercase">Benjamin Dannegard, Theo Nordahl, Pedro Marinho, Robin Schritter, Lucas Stenberg</div>
 
 Through our research we found citizens of Lund were generally critical to the development of a new tram line which will service Brunnshög. Citizens cite a lack of information about the tram, its construction and purpose.
 
