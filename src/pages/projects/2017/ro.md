@@ -6,7 +6,7 @@ year: 2017
 creators: 'Marcus Bader, Kristoffer Hallberg, Johanna Johnson, Viktor Lind, Marcus Olofsson'
 yearLevel: 'Second'
 tags:
-  - playful
+  - play
 image: /images/uploads/2017/ro-0.jpg
 ---
 

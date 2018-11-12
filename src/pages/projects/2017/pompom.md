@@ -8,7 +8,7 @@ yearLevel: 'Second'
 tags:
   - kids
   - tangible
-  - music
+  - audio
 image: /images/uploads/2017/pompom.jpg
 ---
 

@@ -2,8 +2,9 @@ import { graphql } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
 import { Link } from 'gatsby';
-import ProjectThumb from '../components/ProjectThumb';
+//import ProjectThumb from '../components/ProjectThumb';
 import Layout from '../components/Layout';
+import ProjectGrid from '../components/ProjectGrid';
 
 class TagRoute extends React.Component {
   render() {
@@ -16,9 +17,9 @@ class TagRoute extends React.Component {
     //   </li>
     // ));
 
-    const postLinks = posts.map(n => (
-      <ProjectThumb key={n.node.id + '-thumb'} data={n.node} />
-    ));
+    // const postLinks = posts.map(n => (
+    //   <ProjectThumb key={n.node.id + '-thumb'} data={n.node} />
+    // ));
     const tag = this.props.pageContext.tag;
     const siteTitle = this.props.data.site.siteMetadata.title;
     const totalCount = this.props.data.allMarkdownRemark.totalCount;
@@ -43,15 +44,10 @@ class TagRoute extends React.Component {
                   <span> or </span>
                   <Link to="/projects/">all projects</Link>.
                 </p>
-                <ul className="taglist">{postLinks}</ul>
-                <p>
-                  <Link to="/tags/">Browse all tags</Link>
-                  <span> or </span>
-                  <Link to="/projects/">all projects</Link>.
-                </p>
               </div>
             </div>
           </div>
+          <ProjectGrid projects={posts} />
         </section>
       </Layout>
     );

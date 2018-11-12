@@ -6,7 +6,7 @@ year: 2017
 creators: 'Marianne Bansell, Mårten Friman, Robin Medin, Helene Olsson, Daniel Selleby'
 yearLevel: 'Second'
 tags:
-  - playful
+  - play
   - mixed reality
 image: /images/uploads/2017/sleeptight-1.jpg
 ---
