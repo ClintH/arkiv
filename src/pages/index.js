@@ -37,6 +37,17 @@ export default class IndexPage extends React.Component {
         <section className="section">
           <ProjectGrid projects={posts} />
         </section>
+        <section className="section">
+          <div className="container">
+            <div className="content is-size-4">
+              Browse <a href="projects">projects</a> (
+              <a href="tags">by tags?</a>
+              ),
+              <a href="about">read about the programme</a> or&nbsp;
+              <a href="collaborate">how to collaborate</a>.
+            </div>
+          </div>
+        </section>
       </Layout>
     );
   }
@@ -59,6 +70,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___year] }
+      limit: 9
       filter: { frontmatter: { templateKey: { eq: "project-post" } } }
     ) {
       edges {
