@@ -9,6 +9,7 @@ tags:
   - tangible
   - play
   - kids
+  - audio
 image: /images/uploads/2018/aniblocks.jpg
 ---
 

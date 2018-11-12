@@ -6,7 +6,7 @@ year: 2016
 creators: ''
 yearLevel: 'Second'
 tags:
-  - sound
+  - audio
   - interactivity
   - embodiment
   - tangible

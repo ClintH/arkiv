@@ -7,7 +7,7 @@ creators: 'Jonas Köpfer, Jennifer Larsson, Amina Muftic, Madeleine Nilsson, Seb
 yearLevel: 'Second'
 tags:
   - play
-  - introspection
+  - education
 image: /images/uploads/2017/on-the-spot.jpg
 ---
 

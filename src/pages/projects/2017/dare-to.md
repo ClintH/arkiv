@@ -16,6 +16,6 @@ The potential of technology as an instrument to obtain a sense of home is comple
 
 _Dare To_ is an interactive multifunction stress reducer. It monitors the users heart rate and becomes warm when it registers that the user is nervous, giving the user the sensation of holding someones hand. It will play a prerecorded message or song if the user squeeze it to motivate the user and because it want to be used it will call on it’s owners attention by vibrations and pulsating lights if forgotten about.
 
-![](/images/uploads/2017/dare-to-1.jpg)!
+![](/images/uploads/2017/dare-to-1.jpg)
 
-![](/images/uploads/2017/dare-to-2.jpg)!
+![](/images/uploads/2017/dare-to-2.jpg)
