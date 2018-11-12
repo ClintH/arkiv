@@ -35,11 +35,11 @@ This sketch purposefully subverts the usual reading interaction. By looking at t
 <div class="subtitle is-uppercase">Lisa Bolmsten & Nathalie Strindlund</div>
 These sketches explored gaze and an interface’s visual representation.
 <figure>
-<video controls src="/images/uploads/2016/implicit-focus-2.mp4"></video>
+<video controls src="/images/uploads/2017/implicit-focus-2.mp4"></video>
 <figcaption>A notification has a lower visual prominence when the head is turned toward it.</figcaption>
 </figure>
 <figure>
-<video controls src="/images/uploads/2016/implicit-focus-0.mp4"></video>
+<video controls src="/images/uploads/2017/implicit-focus-0.mp4"></video>
 <figcaption>A document blurs out when your head is turned away.</figcaption>
 </figure>
 </div>
