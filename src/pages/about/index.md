@@ -101,7 +101,7 @@ You won’t just make good-looking mock-ups, you'll bring your ideas to life.
   </div>
   <div class="column is-half content">
 
-To design is to make a change in the world; whether the designer intends to or not, their work has wider implications. Our education instils a responsible, sensitive design approach which takes issues of ethics and sustainability seriously, and focuses on design with human values in mind.
+To design is to make a change in the world; whether the designer intends to or not, their work has wider implications. Our education instills a responsible, sensitive design approach which takes issues of ethics and sustainability seriously, and focuses on design with human values in mind.
 
   </div>
     <div class="column is-half ">
@@ -158,7 +158,7 @@ You will develop reflective, critical approaches, understanding not only how to 
       <div class="columns is-centered">
         <div class="column is-8 ">
           <h1>Structure</h1>
-          <p>For students starting in 2018, the programme looks as follows.</p>
+          <p>For students starting in 2019, the programme looks as follows.</p>
                   <div class="notification is-size-7 is-link">
           For a formal description of the programme and further
           information about who to contact or how to apply, please see
@@ -178,62 +178,28 @@ You will develop reflective, critical approaches, understanding not only how to 
             <span class="courseName">Methods I</span>
             <span class="courseHp">(7.5HP)</span>
             <div class="courseDescr">
-              Introduction to design and interactivity
-            </div>
-          </article>
-        </div>
-        <div class="tile is-3 is-parent is-vertical">
-          <article class="tile is-child box">
-            <span class="courseName">GUI</span>
-            <span class="courseHp">(7.5HP)</span>
-            <div class="courseDescr">
-              Visual design, graphical user interface principles and
-              genres, sketching and web technologies
-            </div>
-          </article>
-          <article class="tile is-child box">
-            <span class="courseName">Programming I</span>
-            <span class="courseHp">(7.5HP)</span>
-            <div class="courseDescr">
-              Creative coding with Javascript
+              Intro to human-centred design and interactivity
             </div>
           </article>
         </div>
         <div class="tile is-parent">
           <article class="tile is-child box">
             <span class="courseName">
-              Research Field Introduction
+              Graphical User Interfaces
             </span>
             <span class="courseHp">(7.5HP)</span>
             <div class="courseDescr">
-              Engaging with scholarly discourse and academic writing
+              Visual design, graphical user interface principles and
+              genres, sketching and web technologies
             </div>
           </article>
         </div>
         <div class="tile is-3 is-parent is-vertical">
           <article class="tile is-child box">
-            <span class="courseName">Physical Prototyping</span>
+            <span class="courseName">Programming</span>
             <span class="courseHp">(7.5HP)</span>
             <div class="courseDescr">
-              Design theory, physical making techniques, electronics
-            </div>
-          </article>
-          <article class="tile is-child box">
-            <span class="courseName">Programming II</span>
-            <span class="courseHp">(7.5HP)</span>
-            <div class="courseDescr">
-              Advanced creative coding with Javascript and
-              microcontrollers
-            </div>
-          </article>
-        </div>
-        <div class="tile is-3 is-parent is-vertical">
-          <article class="tile is-child box">
-            <span class="courseName">Digital Prototyping</span>
-            <span class="courseHp">(7.5HP)</span>
-            <div class="courseDescr">
-              Design theory, rapid prototyping with visual tools and
-              video
+              Creative coding with Javascript
             </div>
           </article>
           <article class="tile is-child box">
@@ -241,6 +207,33 @@ You will develop reflective, critical approaches, understanding not only how to 
             <span class="courseHp">(7.5HP)</span>
             <div class="courseDescr">
               Design research, qualitative methods
+            </div>
+          </article>
+        </div>
+        <div class="tile is-parent">
+        <article class="tile is-child box">
+          <span class="courseName">Prototyping</span>
+          <span class="courseHp">(15HP)</span>
+          <div class="courseDescr">
+            Design theory, physical making techniques, electronics and code
+          </div>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <span class="courseName">Research Practice</span>
+          <span class="courseHp">(7.5HP)</span>
+          <div class="courseDescr">
+            Engaging with scholarly discourse and academic writing
+          </div>
+        </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <span class="courseName">Studio</span>
+            <span class="courseHp">(7.5HP)</span>
+            <div class="courseDescr">
+              Synthesis of skills applied to a self-directed project
             </div>
           </article>
         </div>
