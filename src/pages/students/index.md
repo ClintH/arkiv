@@ -35,6 +35,8 @@ title: Students. Past and present.
 
 [Lisa Bolmsten](http://lisabolmsten.se)
 
+[Gabrielle Holmgren](www.gabrielleholmgren.com)
+
 [Igor Kovtun](http://igor-kovtun.com)
 
 [Martin Lindeborg](http://www.ux.martinlindeborg.com)

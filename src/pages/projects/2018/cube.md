@@ -3,7 +3,7 @@ templateKey: project-post
 title: C.U.B.E
 course: Games & Play
 year: 2018
-creators: 'Adam Terne, Ali Abdel Rehim, Michelle Ni, Simon Richter'
+creators: 'Adam Borsiin, Ali Abdel Rehim, Michelle Ni, Simon Richter'
 yearLevel: 'Second'
 tags:
   - tangible
