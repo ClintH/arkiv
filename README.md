@@ -1,5 +1,3 @@
-# Arkixd
-
 # Editing
 
 ## Create a Markdown file
