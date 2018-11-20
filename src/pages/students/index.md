@@ -41,4 +41,6 @@ title: Students. Past and present.
 
 [Martin Lindeborg](http://www.ux.martinlindeborg.com)
 
+[Rebecka Wärulf](https://rwarulf.com/)
+
 Additions or corrections? Please contact the programme coordinator.
