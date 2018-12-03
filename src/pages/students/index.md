@@ -41,7 +41,7 @@ title: Students. Past and present.
 
 [Martin Lindeborg](http://www.ux.martinlindeborg.com)
 
-[Christopher Liljestam](https://portfolio-89f89.firebaseapp.com/portfolioSite/index.html)
+[Christopher Liljestam](http://christopherliljestam.com)
 
 [Rebecka Wärulf](https://rwarulf.com/)
 
