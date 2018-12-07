@@ -37,6 +37,8 @@ title: Students. Past and present.
 
 [Gabrielle Holmgren](www.gabrielleholmgren.com)
 
+[Marcus Johansson](https://marcuspamp.se)
+
 [Igor Kovtun](http://igor-kovtun.com)
 
 [Martin Lindeborg](http://www.ux.martinlindeborg.com)
