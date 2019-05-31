@@ -25,6 +25,12 @@ Companies that have recently received interaction design interns include: ÅF Co
 
 Organisations are also welcome to offer summer internships outside of the formal internship programme.
 
+Timing
+* Mid-January: we host information seminars about internships for students
+* Mid-March: students apply for the internship course
+* Mid-May: students have an reached an agreement with an organisation to host their internship, and submit the paperwork for approval by the university
+* Internship: Early September - late January
+
 ![](/images/collab-2.jpg)
 
 # Thesis student hosting
