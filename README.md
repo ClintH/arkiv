@@ -2,7 +2,7 @@
 
 ## Create a Markdown file
 
-File should be located: `pages\projects\[year-your-project].md`
+File should be located: `src\pages\projects\[year-your-project].md`
 
 Naming conventions:
 

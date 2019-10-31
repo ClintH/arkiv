@@ -1,4 +1,4 @@
-import CMS from 'netlify-cms';
+import CMS from 'netlify-cms-app';
 import React from 'react';
 
 import ProjectPagePreview from './preview-templates/ProjectPagePreview';
@@ -24,7 +24,7 @@ class TagsPreview extends React.Component {
   render() {
     return (
       <ul>
-        {this.props.value.map(function(val, index) {
+        {this.props.value.map(function (val, index) {
           return <li key={index} value={val} />;
         })}
       </ul>
@@ -32,6 +32,7 @@ class TagsPreview extends React.Component {
   }
 }
 
+CMS.init();
 CMS.registerWidget('tags', TagsControl, TagsPreview);
 CMS.registerPreviewStyle('/styles.css');
 CMS.registerPreviewTemplate('project', ProjectPagePreview);
