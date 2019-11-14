@@ -7,7 +7,7 @@ creators: Sebastian Wictorin
 year: 2018
 yearLevel: 'Third'
 tags:
-  - visualistion
+  - visualisation
   - journalism
 image: /images/uploads/2018/wictorin-21alt.jpg
 ---

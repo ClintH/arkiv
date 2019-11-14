@@ -29,7 +29,7 @@ title: Students. Past and present.
 
 [Linn Nerlund](https://nerlunds.com/)
 
-# Current
+# Graduation 2019
 
 [Daniel Alfredsson](http://daniel-alfredsson.com)
 
@@ -41,10 +41,18 @@ title: Students. Past and present.
 
 [Igor Kovtun](http://igor-kovtun.com)
 
+[Ali Abdel Rehim](alisalem.se)
+
 [Martin Lindeborg](http://www.ux.martinlindeborg.com)
 
 [Christopher Liljestam](http://christopherliljestam.com)
 
+[Nathalie Strindlund](https://nathaliestrindlund.com)
+
 [Rebecka Wärulf](https://rwarulf.com/)
+
+# Current
+
+[Kim Sundnér](kimsundner.com)
 
 Additions or corrections? Please contact the programme coordinator.
