@@ -13,11 +13,16 @@ image: /images/uploads/2018/ix-nuance.jpg
 
 Type is everywhere in user interfaces but meaning is usually carried in the words themselves, or to a lesser extent, using colour to signal error or unavailability. If we accept that type is a necessary part of interfaces, could we use it to be more expressive?
 
-In this three-week module in _Interactivity_, students explored providing nuanced, non-symbolic feedback through the use of variable typefaces.  
+In this three-week module, students explored providing nuanced, non-symbolic feedback through the use of variable typefaces.  
 
 Variable typefaces are a new type technology that allows continuous manipulation in various axes. In collaboration with <a href="http://goransoderstrom.se/">Göran Söderström</a>, type designer and founder of <a href="https://lettersfromsweden.se/">Letters from Sweden</a>.
 
-In _Interactivity_ students purposefully do not create concepts or solve problems, they are engaged with pure experimentation and building knowledge through design.
+<div class="box is-size-7">
+  <div class="content">
+     In the course <em>Interactivity</em>, students purposefully do not create concepts or solve problems, they are engaged with pure experimentation and building knowledge through design. A large quantity of sketches are produced, here we draw out a handful.
+    </div>
+</div>
+
 
 <div class="section is-size-6">
   <div class="title">Movement</div>
@@ -82,7 +87,7 @@ Text is arranged and subtly modulated according to distance and direction of lan
 
 <div class="section is-size-6">
   <div class="title">Action</div>
-  <div class="subtitle is-uppercase">Theo Nordahl & Wahl Anna</div>
+  <div class="subtitle is-uppercase">Theo Nordahl & Anna Wahl</div>
 
 Two sketches here demonstrate some of the explorations of time. The first shows how a calendar might visually show the 'heaviness' of appointments for each date. The second second shows a wayfinding cue suggesting to a festival goer the direction and activity of a stage.
 

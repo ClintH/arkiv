@@ -13,9 +13,13 @@ image: /images/uploads/2018/ix-skill.jpg
 
 Rather than designing for ease of use, what if we designed for the progressive development of technique and mastery?
 
-In this three-week module in _Interactivity_, students explored the notions of skill through the material of a humble analog joystick.
+In this three-week module, students explored the notions of skill through the material of a humble analog joystick.
 
-In _Interactivity_ students purposefully do not create concepts or solve problems, they are engaged with pure experimentation and building knowledge through design.
+<div class="box is-size-7">
+  <div class="content">
+     In the course <em>Interactivity</em>, students purposefully do not create concepts or solve problems, they are engaged with pure experimentation and building knowledge through design. A large quantity of sketches are produced, here we draw out a handful.
+    </div>
+</div>
 
 <div class="section is-size-6">
   <div class="title">Two-handed manipulation</div>

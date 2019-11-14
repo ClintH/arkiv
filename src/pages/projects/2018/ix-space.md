@@ -9,14 +9,18 @@ tags:
   - interactivity
   - space
   - embodiment
-image: /images/uploads/2018/ix-skill.jpg
+image: /images/uploads/2018/ix-space.jpg
 ---
 
 Underpinning modern user interfaces is spatiality. An icon might 'live' on a surface, or inside a container. Windows might be arranged and sized in a space defined by the physical screen or virtual space. User interface elements have a "vertical" ordering, allowing some things to be visible at the surface, while others get buried behind.
 
-In this three-week module in _Interactivity_, students tried to set aside taken-for-granted notions of spatiality, and experiment with their own. Not just a model of space, but also how to interactively establish space, or work within a kind of space. For this module, students had to use the 'material' of multi-touch interaction.
+In this three-week module, students tried to set aside taken-for-granted notions of spatiality, and experiment with their own. Not just a model of space, but also how to interactively establish space, or work within a kind of space. For this module, students had to work with multi-touch interaction.
 
-In _Interactivity_ students purposefully do not create concepts or solve problems, they are engaged with pure experimentation and building knowledge through design.
+<div class="box is-size-7">
+  <div class="content">
+     In the course <em>Interactivity</em>, students purposefully do not create concepts or solve problems, they are engaged with pure experimentation and building knowledge through design. A large quantity of sketches are produced, here we draw out a handful.
+    </div>
+</div>
 
 <div class="section is-size-6">
   <div class="title">Nested</div>

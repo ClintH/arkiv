@@ -20,7 +20,7 @@ As a result of this investigation, several challenges with the current design pr
 
 To address these challenges, an experience-centric design process is proposed. The process consists of manifesting tactile experiences through simple means, articulating and scrutinising them from first and second person perspectives, and analysing the resulting articulations to identify the qualities of the different touches. The proposed process is illustrated through an in-depth look at four artefacts, each of which exemplifies particular qualities of passive touch as a medium.
 
-<a class="button" href="http://alisalem.se">See Igor's portfolio</a>
+<a class="button" href="http://igor-kovtun.com">See Igor's portfolio</a>
 
 
   <figure>
@@ -36,7 +36,6 @@ To address these challenges, an experience-centric design process is proposed. T
 
 ![](/images/uploads/2019/kovtun-4.jpg)
 
-![](/images/uploads/2019/kovtun-5.jpg)
 
 ![](/images/uploads/2019/kovtun-6.jpg)
 
