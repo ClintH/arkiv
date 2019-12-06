@@ -7,7 +7,7 @@ creators: ''
 yearLevel: 'Second'
 tags:
   - interactivity
-  - type
+  - typography
 image: /images/uploads/2018/ix-nuance.jpg
 ---
 
@@ -25,6 +25,19 @@ Variable typefaces are a new type technology that allows continuous manipulation
 
 
 <div class="section is-size-6">
+  <div class="title">Feedforward</div>
+  <div class="subtitle is-uppercase">Piotr Kruszynski</div>
+
+These sketches use type to indicate that an element can be swiped from left to right. The expression suggests that each element demands a different kind of swipe gesture.
+
+  <figure>
+    <img src="/images/uploads/2018/ix-nuance-7-1.gif">
+    <img src="/images/uploads/2018/ix-nuance-7-2.gif">
+  </figure>
+</div>
+
+
+<div class="section is-size-6">
   <div class="title">Movement</div>
   <div class="subtitle is-uppercase">Julia Brandt & Taner Olcay</div>
 
@@ -37,6 +50,8 @@ These sketches show type being modulated by physical objects. Using simple compu
 
 </div>
 
+
+
 <div class="section is-size-6">
   <div class="title">Music</div>
   <div class="subtitle is-uppercase">Marri Dragicevic & Kim Jankowski</div>
@@ -47,7 +62,6 @@ Experiments in type reacting to music.
 <img src="/images/uploads/2018/ix-nuance-2-1.gif">
   </figure>
 </div>
-
 
 <div class="section is-size-6">
   <div class="title">Urgency</div>
@@ -68,7 +82,7 @@ Exploring feedback of temporal events. In this case, suggesting whether one shou
 An expressive typewriter embodies the characteristics of typing in the text it leaves behind. In this sketch, the per-letter speed of typing is used to modulate the font.
 
   <figure>
-<img src="/images/uploads/2018/ix-nuance-4-1.gif">
+    <img src="/images/uploads/2018/ix-nuance-4-1.gif">
   </figure>
 
 </div>
@@ -80,7 +94,7 @@ An expressive typewriter embodies the characteristics of typing in the text it l
 Text is arranged and subtly modulated according to distance and direction of landmarks creating a dynamic typographical map.
 
   <figure>
-<img src="/images/uploads/2018/ix-nuance-5-1.gif">
+    <img src="/images/uploads/2018/ix-nuance-5-1.gif">
   </figure>
 
 </div>
@@ -92,9 +106,8 @@ Text is arranged and subtly modulated according to distance and direction of lan
 Two sketches here demonstrate some of the explorations of time. The first shows how a calendar might visually show the 'heaviness' of appointments for each date. The second second shows a wayfinding cue suggesting to a festival goer the direction and activity of a stage.
 
   <figure>
-<img src="/images/uploads/2018/ix-nuance-6-1.gif">
-<img src="/images/uploads/2018/ix-nuance-6-2.gif">
-
+    <img src="/images/uploads/2018/ix-nuance-6-1.gif">
+    <img src="/images/uploads/2018/ix-nuance-6-2.gif">
   </figure>
 
 </div>

@@ -37,11 +37,13 @@ title: Students. Past and present.
 
 [Gabrielle Holmgren](www.gabrielleholmgren.com)
 
+[Johan Hultman](http://johan-hultman.com)
+
 [Marcus Johansson](https://marcuspamp.se)
 
 [Igor Kovtun](http://igor-kovtun.com)
 
-[Ali Abdel Rehim](alisalem.se)
+[Ali Abdel Rehim](http://alisalem.se)
 
 [Martin Lindeborg](http://www.ux.martinlindeborg.com)
 
