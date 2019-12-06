@@ -25,89 +25,83 @@ Variable typefaces are a new type technology that allows continuous manipulation
 
 
 <div class="section is-size-6">
-  <div class="title">Feedforward</div>
-  <div class="subtitle is-uppercase">Piotr Kruszynski</div>
+<div class="title">Feedforward</div>
+<div class="subtitle is-uppercase">Piotr Kruszynski</div>
 
 These sketches use type to indicate that an element can be swiped from left to right. The expression suggests that each element demands a different kind of swipe gesture.
 
-  <figure>
-    <img src="/images/uploads/2018/ix-nuance-7-1.gif">
-    <img src="/images/uploads/2018/ix-nuance-7-2.gif">
-  </figure>
+<figure>
+<img src="/images/uploads/2018/ix-nuance-7-1.gif">
+<img src="/images/uploads/2018/ix-nuance-7-2.gif">
+</figure>
 </div>
 
 
 <div class="section is-size-6">
-  <div class="title">Movement</div>
-  <div class="subtitle is-uppercase">Julia Brandt & Taner Olcay</div>
+<div class="title">Movement</div>
+<div class="subtitle is-uppercase">Julia Brandt & Taner Olcay</div>
 
 These sketches show type being modulated by physical objects. Using simple computer vision, the sketches respond to movement by brightly coloured objects.
 
-  <figure>
-    <img src="/images/uploads/2018/ix-nuance-1-1.gif">
-    <img src="/images/uploads/2018/ix-nuance-1-2.gif">
-  </figure>
-
+<figure>
+<img src="/images/uploads/2018/ix-nuance-1-1.gif">
+<img src="/images/uploads/2018/ix-nuance-1-2.gif">
+</figure>
 </div>
 
 
-
 <div class="section is-size-6">
-  <div class="title">Music</div>
-  <div class="subtitle is-uppercase">Marri Dragicevic & Kim Jankowski</div>
+<div class="title">Music</div>
+<div class="subtitle is-uppercase">Marri Dragicevic & Kim Jankowski</div>
 
 Experiments in type reacting to music.
 
-  <figure>
+<figure>
 <img src="/images/uploads/2018/ix-nuance-2-1.gif">
-  </figure>
+</figure>
 </div>
 
 <div class="section is-size-6">
-  <div class="title">Urgency</div>
-  <div class="subtitle is-uppercase">Benjamin Dannegård & Line Göst</div>
+<div class="title">Urgency</div>
+<div class="subtitle is-uppercase">Benjamin Dannegård & Line Göst</div>
 
 Exploring feedback of temporal events. In this case, suggesting whether one should hurry or not to catch a bus. In the sketch, the horizontal movement of the cursor controls the 'urgency'.
 
-  <figure>
+<figure>
 <img src="/images/uploads/2018/ix-nuance-3-1.gif">
-  </figure>
-
+</figure>
 </div>
 
 <div class="section is-size-6">
-  <div class="title">Typing</div>
-  <div class="subtitle is-uppercase">Alexander Grövnes & Lucas Stenberg</div>
+<div class="title">Typing</div>
+<div class="subtitle is-uppercase">Alexander Grövnes & Lucas Stenberg</div>
 
 An expressive typewriter embodies the characteristics of typing in the text it leaves behind. In this sketch, the per-letter speed of typing is used to modulate the font.
 
-  <figure>
-    <img src="/images/uploads/2018/ix-nuance-4-1.gif">
-  </figure>
-
+<figure>
+<img src="/images/uploads/2018/ix-nuance-4-1.gif">
+</figure>
 </div>
 
 <div class="section is-size-6">
-  <div class="title">Space</div>
-  <div class="subtitle is-uppercase">Kristina Arnold & Johan Hellgren</div>
+<div class="title">Space</div>
+<div class="subtitle is-uppercase">Kristina Arnold & Johan Hellgren</div>
 
 Text is arranged and subtly modulated according to distance and direction of landmarks creating a dynamic typographical map.
 
-  <figure>
-    <img src="/images/uploads/2018/ix-nuance-5-1.gif">
-  </figure>
-
+<figure>
+<img src="/images/uploads/2018/ix-nuance-5-1.gif">
+</figure>
 </div>
 
 <div class="section is-size-6">
-  <div class="title">Action</div>
-  <div class="subtitle is-uppercase">Theo Nordahl & Anna Wahl</div>
+<div class="title">Action</div>
+<div class="subtitle is-uppercase">Theo Nordahl & Anna Wahl</div>
 
 Two sketches here demonstrate some of the explorations of time. The first shows how a calendar might visually show the 'heaviness' of appointments for each date. The second second shows a wayfinding cue suggesting to a festival goer the direction and activity of a stage.
 
-  <figure>
-    <img src="/images/uploads/2018/ix-nuance-6-1.gif">
-    <img src="/images/uploads/2018/ix-nuance-6-2.gif">
-  </figure>
-
+<figure>
+<img src="/images/uploads/2018/ix-nuance-6-1.gif">
+<img src="/images/uploads/2018/ix-nuance-6-2.gif">
+</figure>
 </div>
