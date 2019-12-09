@@ -9,10 +9,10 @@ export default class ProjectThumb extends React.Component {
         <div
           className="tile is-child"
           style={{
-            height: '20em',
+            height: '10em',
             backgroundImage: `url(${
               p.frontmatter.image.childImageSharp.fixed.src
-            })`,
+              })`,
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
             backgroundSize: 'cover',
@@ -21,7 +21,8 @@ export default class ProjectThumb extends React.Component {
             color: 'white',
             display: 'inline-block',
             width: '100%',
-            minHeight: '10em'
+            minHeight: '10em',
+            maxHeight: '10em'
           }}
         >
           <Link

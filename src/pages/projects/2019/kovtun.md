@@ -11,7 +11,7 @@ tags:
   - haptics
   - touch
   - interactivity
-image: /images/uploads/2019/kovtun-1.jpg
+image: /images/uploads/2019/kovtun-0.jpg
 ---
 
 This thesis aims to contribute to the interaction design practice by exploring how passive touch can be utilised in the design of technological interfaces. To fulfil this aim, both, the practice of designing for touch, and the qualities of touch itself as a medium are investigated.
