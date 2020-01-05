@@ -7,7 +7,7 @@ creators: Oskar Hansson
 year: 2018
 yearLevel: 'Third'
 tags:
-  - chatbot
+  - conversational
   - finance
 image: /images/uploads/2018/hansson-4-9alt.png
 ---
