@@ -45,6 +45,8 @@ title: Students. Past and present.
 
 [Ali Abdel Rehim](http://alisalem.se)
 
+[Christoffer Larsson](http://chrislarsson.se/)
+
 [Martin Lindeborg](http://www.ux.martinlindeborg.com)
 
 [Christopher Liljestam](http://christopherliljestam.com)
@@ -55,6 +57,6 @@ title: Students. Past and present.
 
 # Current
 
-[Kim Sundnér](kimsundner.com)
+[Kim Sundnér](http://kimsundner.com)
 
 Additions or corrections? Please contact the programme coordinator.
