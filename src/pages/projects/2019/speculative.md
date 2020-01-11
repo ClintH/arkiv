@@ -22,8 +22,8 @@ The object(s) produced are meant to be _discursive_, not functional.
 
 Students were to avoid:
 * One-liners: projects which hinge on a simplistic or superficial perspective of sustainability
-* _Black Mirror_ rejects: overly dramatic dystopian futures lacking subtlety or openness for questioning/interpretation
-( A better mousetrap: the concepts and artifacts produced in the design work are not supposed to embody a solution (eg an app to help people sort rubbish).
+* _Black Mirror_ rejects: dramatic, dystopian futures lacking subtlety or openness for questioning/interpretation
+* A better mousetrap: the concepts and artifacts produced in the design work are not supposed to embody a solution (eg an app to help people sort rubbish).
 
 
 <div class="section is-size-6">
