@@ -69,6 +69,66 @@ collections:
             ],
         }
 
+  - name: 'exhibitions'
+    label: 'Exhibition'
+    folder: 'src/pages/exhibitions'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'exhibition-page',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - {
+          label: 'Sub Title',
+          name: 'subTitle',
+          required: false,
+          widget: 'string',
+        }
+      - { label: 'Course', name: 'course', required: false, widget: 'string' }
+      - {
+          label: 'Creators',
+          name: 'creators',
+          required: false,
+          widget: 'string',
+        }
+      - { label: 'Created year', name: 'year', widget: 'number', default: 2018 }
+      - {
+          label: 'Year Level',
+          name: 'yearLevel',
+          widget: 'select',
+          default: 'First',
+          options: ['First', 'Second', 'Third'],
+        }
+      - { label: 'Tags', name: 'tags', widget: 'tags' }
+      - { label: 'Description', name: 'body', widget: 'markdown' }
+      - {
+          label: 'Cover Image',
+          name: 'image',
+          widget: 'image',
+          default: /images/uploads/blank-project.jpg,
+        }
+      - {
+          label: Contributions,
+          name: contributions,
+          widget: list,
+          required: false,
+          fields:
+            [
+              { label: Title, name: title, widget: string },
+              {
+                label: Creators,
+                name: creators,
+                required: false,
+                widget: list,
+              },
+              { label: Description, name: description, widget: 'markdown' },
+            ],
+        }
+
   - name: 'pages'
     label: 'Pages'
     files:
