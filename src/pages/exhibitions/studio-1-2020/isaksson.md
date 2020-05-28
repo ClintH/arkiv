@@ -8,6 +8,7 @@ title: Investigating the aesthetics of seamlessness and seamfulness
 creators: Clara Isaksson
 links:
   miro: https://miro.com/app/board/o9J_krnJQcs=/
+  zoom: https://mau-se.zoom.us/j/68351150028
 tags:
   - aesthetics
   - seamfulness
@@ -23,6 +24,6 @@ The word "seamless" is often heard describing an experience of an interactive ar
 
 ---
 
-10:00 – 10:30
+11:30 - 12:00
 
-15:00 – 15:30
+14:50 - 16:00

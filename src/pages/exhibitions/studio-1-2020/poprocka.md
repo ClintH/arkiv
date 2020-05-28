@@ -8,6 +8,7 @@ title: Concept evaluation method - a new take on HOQ
 creators: Michaela Poprocká
 links:
   miro: https://miro.com/app/board/o9J_krgRhRw=/
+  zoom: https://mau-se.zoom.us/j/62859888360
 tags:
   - method
   - concept evaluation method
@@ -18,3 +19,9 @@ image: /images/uploads/2020/studio20-poprocka-0.jpg
 ---
 
 This project focused on developing a new Concept Evaluation Method suitable for Interaction Design. It took inspiration from multiple sources, probably resembling HOQ (House of Quality) the most in structure. It takes, however, a quite different stance in approaching the process of evaluating concepts as such, not focusing on how the final decision is made. It aims rather at giving each member of the design team enough space for reflection and expression and encourages mutual understanding within the team, leading to a more organised and meaningful discussion. 
+
+--- 
+
+13:15 - 13:45
+
+14:30 - 15:40

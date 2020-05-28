@@ -8,6 +8,7 @@ title: Terror and fear Through Haptics
 creators: Agustin Guerrero
 links:
   miro: https://miro.com/app/board/o9J_krnPRaE=/
+  zoom: https://mau-se.zoom.us/j/64990763187
 tags:
   - haptics
   - touch
@@ -17,3 +18,9 @@ image: /images/uploads/2020/studio20-guerrero-0.jpg
 ---
 
 When interacting with objects people tend to try and identify what it is, reason with it and understand it. If this ability of making sense of objects is revoked an interaction can feel different in people's minds. I experimented with several objects combining many textures, temperatures and shapes while attempting to revoke people's ability to make sense of them to identify which aspects of the interaction make them feel fear.
+
+---
+
+12:00 - 12:30
+
+14:30 - 15:40

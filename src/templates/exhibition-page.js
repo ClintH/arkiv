@@ -81,6 +81,7 @@ query ExhibitionQuery($id: String!) {
           priority
           links {
             miro
+            zoom
           }
           creators
           image {
