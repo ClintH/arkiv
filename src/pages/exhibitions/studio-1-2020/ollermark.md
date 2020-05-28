@@ -7,13 +7,13 @@ priority: 99
 title: Exploring the feeling of body movements
 creators: Karin Ollermark
 links:
-  miro: https://miro.com/welcomeonboard/gys7FJ8XQSw0F7XQoirK3s30qRB5lX8dufVga1SXDU7pc8jAl4PhdxBjvaUqakOI
+  miro: https://miro.com/app/board/o9J_ksyjPWY=/
 tags:
   - body movement
   - embodiment
   - aesthetics
   - movement experience
-image: /images/uploads/2020/studio20-ollermark-0.jpg
+image: /images/uploads/2020/studio20-ollermark-0.png
 ---
 
 Through the use of our body and mind we shape our understanding and experience in the world. When it comes to technology we don't really make use of the advantages that the use of body movements can create. Instead of seeing body movements as the moving action, how can we implement the feeling of movements when interacting with technology? I have experimented with the feeling that comes with a movement to see how they can work together to create different types of movement. 

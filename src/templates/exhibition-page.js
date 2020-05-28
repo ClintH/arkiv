@@ -86,7 +86,7 @@ query ExhibitionQuery($id: String!) {
           image {
             childImageSharp {
               fluid(maxWidth: 1000) {
-                srcSet
+                 ...GatsbyImageSharpFluid
               }
             }
           }

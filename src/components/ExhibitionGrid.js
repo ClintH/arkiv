@@ -1,7 +1,9 @@
+import Img from "gatsby-image"
 import React from 'react';
 
+
 function capitalize(s) {
-  return (s.replace(s[0], s[0].toUpperCase()));
+  return s.replace(s[0], s[0].toUpperCase());
 }
 
 function titleCase(s) {
@@ -13,19 +15,10 @@ class ExhibitionItemImage extends React.Component {
   render() {
     return (
       <div className="tile is-child"
-           style={{
-             /* backgroundImage: `url(${this.props.image.childImageSharp.fixed.src})`, */
-             backgroundRepeat: 'no-repeat',
-             backgroundPosition: 'center',
-             backgroundSize: 'cover',
-             top: '0',
-             backgroundColor: 'black',
-             color: 'white',
-             display: 'inline-block',
-             width: '100%',
-             minHeight: '10em',
-             maxHeight: '10em'
-           }} >
+           style={{flexGrow: '0',}}> {/* HACK! */}
+        <figure className="image is-3-by-2">
+          <Img fluid={this.props.image.childImageSharp.fluid} />
+        </figure>
       </div>
     );
   }
@@ -48,17 +41,17 @@ class ExhibitionItemHead extends React.Component {
 
 
 class ExhibitionItemButton extends React.Component {
-    render() {
-      return (
-        <a className="button is-small"
-           href={this.props.link}
-           target="_blank" rel="noopener noreferrer"
-           title={this.props.label} >
-          {this.props.label}
-        </a>
-      );
-    }
+  render() {
+    return (
+      <a className="button is-small"
+         href={this.props.link}
+         target="_blank" rel="noopener noreferrer"
+         title={this.props.label} >
+        {this.props.label}
+      </a>
+    );
   }
+}
 
 class ExhibitionItemButtons extends React.Component {
   render() {
@@ -79,7 +72,7 @@ class ExhibitionItemTags extends React.Component {
         {this.props.tags.map(tag => <span key={tag} className="tag">
                                       {categories.has(tag.toLowerCase())
                                        ? <strong>{tag.toLowerCase()}</strong>
-                                       : tag.toLowerCase() }</span>)}
+                                         : tag.toLowerCase() }</span>)}
       </div>
     );
   }

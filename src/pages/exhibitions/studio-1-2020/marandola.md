@@ -7,7 +7,7 @@ priority: 99
 title: Interactive video for users' testing
 creators: Valerio Marandola
 links:
-  miro: https://miro.com/welcomeonboard/RnTEXXfCbeX477t2RBnOisrWnp4PHrCIM5zDLOBbPWrKc7iwHD9pby1DeYLiFXAm
+  miro: https://miro.com/app/board/o9J_krny4yY=/
 tags:
   - method
   - video

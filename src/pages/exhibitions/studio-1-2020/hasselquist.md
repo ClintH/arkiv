@@ -7,7 +7,7 @@ priority: 11
 title: Keys Open Doors
 creators: Viggo Hasselquist
 links:
-  miro: https://miro.com/welcome/KbcCMHMgOwQzC5DN8VJEoGjw3MNlbMuYjwr0g1qUZuITXxdJQrquw5gMjeII8Tky
+  miro: https://miro.com/app/board/o9J_krgawuM=/
 tags:
   - Aesthetics
   - Verification 
