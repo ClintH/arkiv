@@ -25,9 +25,16 @@ class ExhibitionPageHead extends React.Component {
               <div className="tile is-child is-4" >  </div>
               <div className="tile is-child is-8 box" >
                 <p className="is-small" >
-                  To visit a student, check their avalible times and click the zoom button! There are links to student's Miro boards, some of which require you to be logged in. A free account should be enough, if that is the case. There was a problem with the Zoom rooms ealier, but that should be sorted now.
+                  To visit a student, check their avalible times and click the zoom button! There are links to student's Miro boards, some of which require you to be logged in. A free account should be enough, if that is the case. 
                 </p>
-                <button className="button is-small" title="Zoom" disabled>Zoom</button>
+
+                <div className="buttons" >
+                  <button className="button is-small" title="Zoom" disabled>Zoom</button>
+                  <button className="button is-small" title="Miro" disabled>Miro</button>
+                </div>
+                <p className="is-small has-text-weight-semibold" >
+                  There was a problem with the Zoom rooms ealier, but that should be sorted now. We apologize for any inconvenice this might have caused. 
+                </p>
               </div>
             </div>
             <div className="tile is-child" ></div>

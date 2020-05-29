@@ -8,7 +8,7 @@ title: Terror and fear Through Haptics
 creators: Agustin Guerrero
 links:
   miro: https://miro.com/app/board/o9J_krnPRaE=/
-  zoom: https://mau-se.zoom.us/j/64990763187
+  zoom: https://mau-se.zoom.us/j/61315450209
 tags:
   - haptics
   - touch

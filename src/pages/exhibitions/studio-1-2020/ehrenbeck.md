@@ -8,7 +8,7 @@ title: Paper and Microcontrollers for Ubiquity
 creators: Jaeger Ehrenbeck
 links:
   miro: https://miro.com/app/board/o9J_krn5cY4=/
-  zoom: https://mau-se.zoom.us/j/69850235393
+  zoom: https://mau-se.zoom.us/j/67026976590
 tags: 
   - Material
   - Microcontroller

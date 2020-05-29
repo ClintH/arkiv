@@ -8,7 +8,7 @@ title: Stop-Motion for Sketching Transitions in User Interface Design
 creators: Ivar Lundin
 links:
   miro: https://miro.com/app/board/o9J_kscV4Vo=/
-  zoom: https://mau-se.zoom.us/j/65174945246
+  zoom: https://mau-se.zoom.us/j/64372096227
 tags:
   - method
   - sketching

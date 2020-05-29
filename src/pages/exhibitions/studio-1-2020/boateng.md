@@ -8,7 +8,7 @@ title: Notion of empathy in Cultural Probes
 creators: Vera Boateng
 links:
   miro: https://miro.com/app/board/o9J_ksrgMyc=/
-  zoom: https://mau-se.zoom.us/j/61582581996
+  zoom: https://mau-se.zoom.us/j/4055472964
 tags:
   - method
   - empathy

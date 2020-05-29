@@ -8,7 +8,7 @@ title: Exploring NFC
 creators: Hannes Siebeneicher
 links:
   miro: https://miro.com/app/board/o9J_krgE47c=/
-  zoom: https://mau-se.zoom.us/j/64121607131
+  zoom: https://mau-se.zoom.us/j/62832683570
 tags:
   - Material
   - NFC
@@ -24,3 +24,4 @@ NFC has over the last decade found its way into most smartphones and is often us
 10:15 - 10:45
 
 14:40 - 15:50
+<div></div>
