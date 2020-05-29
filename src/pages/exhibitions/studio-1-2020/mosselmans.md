@@ -8,7 +8,7 @@ title: Ambient Displays - From Background to Foreground
 creators: Chloé Mosselmans Ismaily
 links:
   miro: https://miro.com/app/board/o9J_ksdVk2c=/
-  zoom: https://mau-se.zoom.us/j/66067539706
+  zoom: https://mau-se.zoom.us/j/66656774449
 tags:
   - Ambient Display
   - Ubiquitous Computing
