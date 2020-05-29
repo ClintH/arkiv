@@ -8,7 +8,7 @@ title: Exploring the Sonification of a GUI
 creators: Isak Eklund
 links:
   miro: https://miro.com/app/board/o9J_ktfcq2M=/
-  zoom: https://mau-se.zoom.us/j/62170973265
+  zoom: https://mau-se.zoom.us/j/65977764816
 tags:
   - aesthetics
   - gui

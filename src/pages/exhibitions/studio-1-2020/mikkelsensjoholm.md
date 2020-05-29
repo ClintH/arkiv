@@ -8,7 +8,7 @@ title:  Potential of Light as a material
 creators: My Mikkelsen Sjöholm
 links:
   miro: https://miro.com/app/board/o9J_ktce0BQ=/
-  zoom: https://mau-se.zoom.us/j/69186146702
+  zoom: https://mau-se.zoom.us/j/61903330157
 tags:
   - material
   - light

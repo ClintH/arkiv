@@ -8,7 +8,7 @@ title: Investigating the aesthetics of seamlessness and seamfulness
 creators: Clara Isaksson
 links:
   miro: https://miro.com/app/board/o9J_krnJQcs=/
-  zoom: https://mau-se.zoom.us/j/68351150028
+  zoom: https://mau-se.zoom.us/j/63555195262
 tags:
   - aesthetics
   - seamfulness

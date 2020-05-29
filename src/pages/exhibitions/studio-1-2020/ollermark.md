@@ -8,7 +8,7 @@ title: Exploring the feeling of body movements
 creators: Karin Ollermark
 links:
   miro: https://miro.com/app/board/o9J_ksyjPWY=/
-  zoom: https://mau-se.zoom.us/j/68395205202
+  zoom: https://mau-se.zoom.us/j/68092085837
 tags:
   - body movement
   - embodiment

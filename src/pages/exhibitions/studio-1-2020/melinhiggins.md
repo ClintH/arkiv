@@ -8,7 +8,7 @@ title: The Aesthetic Approach to Data Visualisations
 creators: Liam Melin-Higgins
 links:
   miro: https://miro.com/app/board/o9J_krjk5cw=/ 
-  zoom: https://mau-se.zoom.us/j/68007525641
+  zoom: https://mau-se.zoom.us/j/68188638756 
 tags:
   - Aesthetics 
   - Data visualisation 

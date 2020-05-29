@@ -8,7 +8,7 @@ title:  Unpacking Machine Learning as a design material with gestures as a modal
 creators: Johan Franzén
 links:
   miro: https://miro.com/app/board/o9J_krnEBs4=/
-  zoom: https://mau-se.zoom.us/j/68740950294
+  zoom: https://mau-se.zoom.us/j/67603152467
 tags:
   - Machine Learning (ML)
   - Material

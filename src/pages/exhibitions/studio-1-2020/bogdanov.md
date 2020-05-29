@@ -8,7 +8,7 @@ title: Gestures as an Aesthetic Experience in Video Games
 creators: Kristian Bogdanov
 links:
   miro: https://miro.com/app/board/o9J_krmsSd0=/
-  zoom: https://mau-se.zoom.us/j/62899145428
+  zoom: https://mau-se.zoom.us/j/64124985668
 tags:
   - aesthetics
   - embodiment

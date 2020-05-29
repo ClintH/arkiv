@@ -8,7 +8,7 @@ title: Touched by Computers
 creators: Karmen Saare
 links:
   miro: https://miro.com/app/board/o9J_krjOQx4=/
-  zoom: https://mau-se.zoom.us/j/64059640728
+  zoom: https://mau-se.zoom.us/j/68386199905
 tags:
   - material
   - touch

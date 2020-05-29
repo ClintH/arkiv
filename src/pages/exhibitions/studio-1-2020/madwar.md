@@ -8,7 +8,7 @@ title: Using of Annotation in Design Process
 creators: Sara Madwar
 links:
   miro: https://miro.com/app/board/o9J_kshmZTQ=/
-  zoom: https://mau-se.zoom.us/j/68758036294
+  zoom: https://mau-se.zoom.us/j/63835173709
 tags:
   - Method
   - interactivity

@@ -8,7 +8,7 @@ title: Interaction Aesthetics in Verbal Communication
 creators: Felicia Del Treppo
 links:
   miro: https://miro.com/app/board/o9J_kte4P4Q=/
-  zoom: https://mau-se.zoom.us/j/66053660632
+  zoom: https://mau-se.zoom.us/j/61291951805
 tags:
   - aesthetics
   - conversational

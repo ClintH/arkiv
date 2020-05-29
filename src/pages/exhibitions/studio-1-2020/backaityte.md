@@ -8,7 +8,7 @@ creators: Greta Backaityte
 title: Comfort as a human — object interaction
 links:
   miro: https://miro.com/app/board/o9J_krmjPXw=/
-  zoom: https://mau-se.zoom.us/j/64654512159
+  zoom: https://mau-se.zoom.us/j/7201663004
 tags:
   - Aesthetics
   - human-object interaction

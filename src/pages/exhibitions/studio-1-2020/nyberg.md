@@ -8,7 +8,7 @@ title: Marks of Usage, Exploring Textures in a Digital Interface
 creators: Samuel Nyberg
 links: 
   miro: https://miro.com/app/board/o9J_ksb7bsc=/
-  zoom: https://mau-se.zoom.us/j/69034830187
+  zoom: https://mau-se.zoom.us/j/66460897361
 tags:
   - aesthetics
   - gui

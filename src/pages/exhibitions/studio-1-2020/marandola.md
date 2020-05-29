@@ -8,7 +8,7 @@ title: Interactive video for users' testing
 creators: Valerio Marandola
 links:
   miro: https://miro.com/app/board/o9J_krny4yY=/
-  zoom: https://mau-se.zoom.us/j/65364163550
+  zoom: https://mau-se.zoom.us/j/69677215565
 tags:
   - method
   - video

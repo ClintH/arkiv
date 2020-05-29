@@ -16,7 +16,7 @@ tags:
   - expanded bandwidth
 links:
   miro: https://miro.com/app/board/o9J_krmn998=/
-  zoom: https://mau-se.zoom.us/j/68131505371
+  zoom: https://mau-se.zoom.us/j/65532339830
 image: /images/uploads/2020/studio20-derlow-0.jpg
 ---
 

@@ -8,7 +8,7 @@ title: Keys Open Doors
 creators: Viggo Hasselquist
 links:
   miro: https://miro.com/app/board/o9J_krgawuM=/
-  zoom: https://mau-se.zoom.us/j/67914006805
+  zoom: https://mau-se.zoom.us/j/67842598053 
 tags:
   - Aesthetics
   - Verification 

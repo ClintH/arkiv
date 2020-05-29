@@ -8,7 +8,7 @@ title: Kinetic output
 creators: 'Dina Pitkänen'
 links: 
   miro: https://miro.com/app/board/o9J_ksZ_zi4=/
-  zoom: https://mau-se.zoom.us/j/64877199152
+  zoom: https://mau-se.zoom.us/j/66077468800
 tags:
   - material
   - aesthetics

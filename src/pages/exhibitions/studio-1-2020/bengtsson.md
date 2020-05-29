@@ -8,7 +8,7 @@ title: UltraSonic Sound, the Touchless Interaction
 creators: Axel Bengtsson
 links:
   miro: https://miro.com/app/board/o9J_ktceZ9A=/
-  zoom: https://mau-se.zoom.us/j/63735988031
+  zoom: https://mau-se.zoom.us/j/62357705557
 tags:
   - ultrasonic sound
   - touch-less

@@ -8,7 +8,7 @@ priority: 99
 creators: Christian Golcic
 links:
   miro: https://miro.com/app/board/o9J_krrhEH8=/
-  zoom: https://mau-se.zoom.us/j/62816283646
+  zoom: https://mau-se.zoom.us/j/67557229561
 tags:
   - virtual reality
   - locomotion

@@ -8,7 +8,7 @@ title: Pliable lightsources, shaping light with your hands
 creators: Jacob Hylén
 links:
   miro: https://miro.com/app/board/o9J_krnKR4A=/
-  zoom: https://mau-se.zoom.us/j/64769265224
+  zoom: https://mau-se.zoom.us/j/65600346752
 tags:
   - Material
   - Pliable lightsources

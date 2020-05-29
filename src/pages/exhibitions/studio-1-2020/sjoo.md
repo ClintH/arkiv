@@ -8,7 +8,7 @@ title: The illusion of space via sound
 creators: Anton Sjöö
 links: 
   miro: https://miro.com/app/board/o9J_krim0Ek=/
-  zoom: https://mau-se.zoom.us/j/62991290935
+  zoom: https://mau-se.zoom.us/j/61910746898
 tags:
   - Sonic Interaction Design
   - Sound
