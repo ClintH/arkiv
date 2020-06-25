@@ -55,6 +55,10 @@ title: Students. Past and present.
 
 [Rebecka Wärulf](https://rwarulf.com/)
 
+# Graduation 2020
+
+[Taner Olcay](https://hybriddesigner.se)
+
 # Current
 
 [Kim Sundnér](http://kimsundner.com)
