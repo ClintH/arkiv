@@ -158,7 +158,7 @@ You will develop reflective, critical approaches, understanding not only how to 
       <div class="columns is-centered">
         <div class="column is-8 ">
           <h1>Structure</h1>
-          <p>For students starting in 2019, the programme looks as follows.</p>
+          <p>For students starting in 2021, the programme looks as follows.</p>
                   <div class="notification is-size-7 is-link">
           For a formal description of the programme and further
           information about who to contact or how to apply, please see
@@ -270,19 +270,19 @@ You will develop reflective, critical approaches, understanding not only how to 
         </div>
         <div class="tile is-parent ">
           <article class="tile is-child box">
-            <span class="courseName">Playful Interaction</span>
+            <span class="courseName">Service Design</span>
             <span class="courseHp">(15HP)</span>
             <div class="courseDescr">
-              Playful qualities of interaction and games
+              Codesign and holistic perspective
             </div>
           </article>
         </div>
         <div class="tile is-parent ">
           <article class="tile is-child box">
-            <span class="courseName">Service Design</span>
+            <span class="courseName">Studio II</span>
             <span class="courseHp">(15HP)</span>
             <div class="courseDescr">
-              Codesign and holistic perspective
+              Synthesis of skills applied to a self-directed project
             </div>
           </article>
         </div>
