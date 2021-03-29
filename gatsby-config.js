@@ -3,6 +3,7 @@ module.exports = {
     title: 'Arkixd',
     shortName: 'Arkixd'
   },
+  flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
@@ -63,6 +64,7 @@ module.exports = {
         ]
       }
     },
+    'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {

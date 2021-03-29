@@ -11,7 +11,7 @@ import ExhibitionGrid from '../components/ExhibitionGrid';
  
    — LLA 200528 */
 
-class ExhibitionPageHead extends React.Component {
+class ExhibitionPageHeadLive extends React.Component {
   render() {
     return (
       <div className="container content">
@@ -33,11 +33,25 @@ class ExhibitionPageHead extends React.Component {
                   <button className="button is-small" title="Miro" disabled>Miro</button>
                 </div>
                 <p className="is-small has-text-weight-semibold" >
-                  There was a problem with the Zoom rooms ealier, but that should be sorted now. We apologize for any inconvenice this might have caused. 
                 </p>
               </div>
             </div>
             <div className="tile is-child" ></div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+class ExhibitionPageHead extends React.Component {
+  render() {
+    return (
+      <div className="container content">
+        <h1>{this.props.exhibition.frontmatter.title}</h1>
+        <div className="section tile is-ancestor">
+          <div className="is-parent is-6" >
+            <div className="tile is-child" dangerouslySetInnerHTML={{ __html: this.props.exhibition.html }} />
           </div>
         </div>
       </div>
@@ -50,12 +64,19 @@ class ExhibitionPage extends React.Component {
     const exhibition = this.props.data.exhibition;
     const projects = this.props.data.projects.edges;
 
-    return (
+    console.log(exhibition);
+    let head;
+    if (exhibition.frontmatter.live)
+      head = <ExhibitionPageHeadLive exhibition={exhibition} />
+    else
+      head =<ExhibitionPageHead exhibition={exhibition} />
+
+      return (
       <Layout>
         <section className="section">
           <Helmet title={`Arkixd. ${exhibition.frontmatter.title}`} />
-          <ExhibitionPageHead exhibition={exhibition} />
-          <ExhibitionGrid projects={projects} />
+          {head}
+          <ExhibitionGrid live={exhibition.frontmatter.live} projects={projects} />
         </section>
       </Layout>
     );
@@ -73,6 +94,7 @@ query ExhibitionQuery($id: String!) {
       year
       course
       title
+      live
     }
   }
   projects: allMarkdownRemark(sort: {order: ASC, fields: [frontmatter___priority]}, filter: {frontmatter: {templateKey: {eq: "exhibition-post"}}}) {

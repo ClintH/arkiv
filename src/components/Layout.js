@@ -50,21 +50,10 @@ export const projectThumbFragment = graphql`
       creators
       image {
         childImageSharp {
-          fluid(maxWidth: 760) {
-            srcSet
-          }
-          fixed(
-            width: 500
-            duotone: { highlight: "#e4788c", shadow: "#e4022d", opacity: 40 }
-          ) {
-            base64
-            aspectRatio
-            width
-            height
-            src
-            srcSet
-            originalName
-          }
+          gatsbyImageData(
+            width: 500,
+            transformOptions: { fit: COVER, duotone: { highlight: "#e4788c", shadow: "#e4022d", opacity: 70 } }
+          )
         }
       }
     }

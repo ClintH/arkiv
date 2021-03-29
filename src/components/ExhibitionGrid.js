@@ -1,7 +1,6 @@
 import Img from "gatsby-image"
 import React from 'react';
 
-
 function capitalize(s) {
   return s.replace(s[0], s[0].toUpperCase());
 }
@@ -43,8 +42,10 @@ class ExhibitionItemHead extends React.Component {
 class ExhibitionItemButton extends React.Component {
   render() {
     return (
+      
       <a className="button is-small"
-         href={this.props.link}
+        style={{marginTop: "1rem"}} 
+        href={this.props.link}
          target="_blank" rel="noopener noreferrer"
          title={this.props.label} >
         {this.props.label}
@@ -81,6 +82,13 @@ class ExhibitionItemTags extends React.Component {
 class ExhibitionItem extends React.Component {
   render() {
     const p = this.props.project;
+    let extended;
+    if (this.props.live) {
+      extended = <>
+        <ExhibitionItemButtons links={p.frontmatter.links} />
+        <ExhibitionItemTags tags={p.frontmatter.tags} />
+        </>
+    }
     return (
       <div key={p.frontmatter.id} className="column tile is-parent is-vertical is-4" >
         <div className="tile is-parent is-vertical" >
@@ -88,9 +96,7 @@ class ExhibitionItem extends React.Component {
           <div className="tile is-child">
             <ExhibitionItemHead creators={p.frontmatter.creators} title={p.frontmatter.title} />
             <div dangerouslySetInnerHTML={{ __html: p.html }} /> {/* body */}
-            <br />
-            <ExhibitionItemButtons links={p.frontmatter.links} />
-            <ExhibitionItemTags tags={p.frontmatter.tags} />
+            {extended}
           </div>
         </div>
       </div>
@@ -102,7 +108,7 @@ export default class ExhibitionGrid extends React.Component {
   render() {
     return (
       <main role="main" className="columns is-multiline is-desktop">
-        {this.props.projects.map(({ node: project }) => <ExhibitionItem project={project} />)}
+        {this.props.projects.map(({ node: project }) => <ExhibitionItem live={this.props.live} key={project.id} project={project} />)}
       </main>
     );
   }

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ProjectPostTemplate } from '../../templates/project-post';
+import { ProjectPostTemplate } from '../../templates/project-post-template';
 
 const ProjectPagePreview = ({ entry, widgetFor }) => {
   const entryContribs = entry.getIn(['data', 'contributions']);

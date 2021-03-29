@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { getSrc} from 'gatsby-plugin-image'
+import { MoreLink } from './MoreLink'
 
 export default class ProjectThumb extends React.Component {
   render() {
@@ -10,9 +12,7 @@ export default class ProjectThumb extends React.Component {
           className="tile is-child"
           style={{
             height: '10em',
-            backgroundImage: `url(${
-              p.frontmatter.image.childImageSharp.fixed.src
-              })`,
+            backgroundImage: `url(${getSrc(p.frontmatter.image.childImageSharp)})`,
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
             backgroundSize: 'cover',
@@ -51,17 +51,8 @@ export default class ProjectThumb extends React.Component {
 
           <p>
             {p.frontmatter.subTitle}
-            &nbsp;
-            <Link
-              title="Read more"
-              className="button is-small"
-              to={p.fields.slug}
-            >
-              →
-            </Link>
-            <br />
-            <br />
           </p>
+          <MoreLink page={p} />            
         </div>
       </div>
     );

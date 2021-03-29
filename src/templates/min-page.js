@@ -1,21 +1,20 @@
-import { graphql } from 'gatsby';
+
 import React from 'react';
 import PropTypes from 'prop-types';
-import Content, { HTMLContent } from '../components/Content';
-import Helmet from 'react-helmet';
-import Layout from '../components/Layout';
+import { HTMLContent } from '../components/Content';
+import {MinPageTemplate} from './min-page-template';
+import { graphql } from 'gatsby';
 
-export const MinPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content;
-
-  return (
-    <Layout>
-      <Helmet title={'Arkixd.' + title} />
-      <PageContent content={content} />
-    </Layout>
-  );
-};
-
+export const minPageQuery = graphql`
+  query MinPage($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      html
+      frontmatter {
+        title
+      }
+    }
+  }
+`;
 const MinPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
@@ -31,16 +30,6 @@ const MinPage = ({ data }) => {
 MinPage.propTypes = {
   data: PropTypes.object.isRequired
 };
-
 export default MinPage;
 
-export const minPageQuery = graphql`
-  query MinPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        title
-      }
-    }
-  }
-`;
+
