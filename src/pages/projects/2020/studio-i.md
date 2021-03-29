@@ -3,7 +3,7 @@ templateKey: project-post
 title: 'Studio I'
 course: 'Studio I'
 subTitle: 'Selected projects'
-year: 2020
+year: 2020.2
 creators: ''
 yearLevel: 'First'
 image: /images/uploads/2020/studio20-deltreppo-0.jpg

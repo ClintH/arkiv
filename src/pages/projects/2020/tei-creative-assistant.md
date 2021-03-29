@@ -1,8 +1,9 @@
 ---
 templateKey: project-post
-title: AI Creative Assistant
+title: Creative Assistant
+subTitle: 'Co-creating with AI'
 course: Tangible & Embodied Interaction
-year: 2020
+year: 2020.2
 creators: 'Max Derlow, Johan Franzén, Christian Golcic, Dina Pitkänen'
 yearLevel: 'Second'
 tags:

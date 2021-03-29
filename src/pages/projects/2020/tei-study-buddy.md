@@ -1,8 +1,9 @@
 ---
 templateKey: project-post
 title: StudyBuddy
+subTitle: AI study companion
 course: Tangible & Embodied Interaction
-year: 2020
+year: 2020.2
 creators: 'Samuel, Miroslav, Karmen, Vera'
 yearLevel: 'Second'
 tags:
