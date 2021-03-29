@@ -11,10 +11,6 @@ links:
   zoom: https://mau-se.zoom.us/j/62859888360
 tags:
   - method
-  - concept evaluation method
-  - team discussion
-  - evaluation matrix
-  - HOQ
 image: /images/uploads/2020/studio20-poprocka-0.jpg
 ---
 

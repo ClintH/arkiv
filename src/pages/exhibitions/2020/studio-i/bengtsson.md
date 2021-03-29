@@ -10,11 +10,7 @@ links:
   miro: https://miro.com/app/board/o9J_ktceZ9A=/
   zoom: https://mau-se.zoom.us/j/62357705557
 tags:
-  - ultrasonic sound
-  - touch-less
-  - depth
-  - movement
-  - direction
+  - material
 image: /images/uploads/2020/studio20-bengtsson-0.jpg
 ---
 

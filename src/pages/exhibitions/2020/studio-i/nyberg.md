@@ -11,12 +11,7 @@ links:
   zoom: https://mau-se.zoom.us/j/66460897361
 tags:
   - aesthetics
-  - gui
-  - affordances
-  - texture
-  - experimental
-  - usability
-  - touch
+  - material
 image: /images/uploads/2020/studio20-nyberg-0.jpg
 ---
 

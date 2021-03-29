@@ -10,11 +10,9 @@ links:
   miro: https://miro.com/app/board/o9J_krnKR4A=/
   zoom: https://mau-se.zoom.us/j/65600346752
 tags:
-  - Material
-  - Pliable lightsources
+  - material
   - light
   - pliability
-  - interactive light
 image: /images/uploads/2020/studio20-hylen-0.jpg
 ---
 

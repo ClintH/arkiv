@@ -11,10 +11,7 @@ links:
   zoom: https://mau-se.zoom.us/j/66656774449
 tags:
   - ambient
-  - Ubiquitous Computing
-  - Information Display
-  - Ambiance
-  - Periphery
+  - ubicomp
 image: /images/uploads/2020/studio20-mosselmans-0.jpg
 ---
 

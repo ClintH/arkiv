@@ -10,13 +10,11 @@ links:
   miro: https://miro.com/app/board/o9J_krim0Ek=/
   zoom: https://mau-se.zoom.us/j/61910746898
 tags:
-  - Sonic Interaction Design
-  - Sound
-  - Embodied interaction
-  - Audio
-  - Space
-  - Interactivity
-  - Material
+  - audio
+  - embodied interaction
+  - space
+  - interactivity
+  - material
 image: /images/uploads/2020/studio20-sjoo-0.png
 ---
 

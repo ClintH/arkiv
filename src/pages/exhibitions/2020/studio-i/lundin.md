@@ -13,8 +13,6 @@ tags:
   - method
   - sketching
   - design practice
-  - stop motion
-  - gui
   - tangible
   - visualisation
   - interactivity

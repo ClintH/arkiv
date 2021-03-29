@@ -8,7 +8,6 @@ year: 2018
 yearLevel: 'Third'
 tags:
   - mixed reality
-  - head mounted display
   - logistics
   - gesture
 image: /images/uploads/2018/medin-alt.jpg

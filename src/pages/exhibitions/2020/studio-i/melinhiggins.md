@@ -10,12 +10,7 @@ links:
   miro: https://miro.com/app/board/o9J_krjk5cw=/ 
   zoom: https://mau-se.zoom.us/j/68188638756 
 tags:
-  - Aesthetics 
-  - Data visualisation 
-  - Aesthetic interaction 
-  - Interaction attributes
-  - Animation 
-  - Prototyping 
+  - aesthetics 
   - visualisation 
 image: /images/uploads/2020/studio20-melinhiggins-0.png
 ---

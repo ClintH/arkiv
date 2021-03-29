@@ -11,12 +11,6 @@ links:
   zoom: https://mau-se.zoom.us/j/63555195262
 tags:
   - aesthetics
-  - seamfulness
-  - seamlessness
-  - interaction design
-  - seamful design
-  - seamless design
-  - usability
 image: /images/uploads/2020/studio20-isaksson-0.png
 ---
 

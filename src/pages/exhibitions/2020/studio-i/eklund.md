@@ -11,10 +11,7 @@ links:
   zoom: https://mau-se.zoom.us/j/65977764816
 tags:
   - aesthetics
-  - gui
-  - sonic interaction
-  - auditory display
-  - sound
+  - audio
 image: /images/uploads/2020/studio20-eklund-0.jpg
 ---
 

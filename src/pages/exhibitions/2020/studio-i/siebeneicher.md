@@ -10,10 +10,9 @@ links:
   miro: https://miro.com/app/board/o9J_krgE47c=/
   zoom: https://mau-se.zoom.us/j/62832683570
 tags:
-  - Material
-  - NFC
-  - multimodality
-  - Peer-to-Peer
+  - material
+  - nfc
+  - connectivity
 image: /images/uploads/2020/studio20-siebeneicher-0.jpg
 ---
 

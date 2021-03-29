@@ -10,9 +10,7 @@ links:
   miro: https://miro.com/app/board/o9J_krmjPXw=/
   zoom: https://mau-se.zoom.us/j/7201663004
 tags:
-  - Aesthetics
-  - human-object interaction
-  - comfort
+  - aesthetics
 image: /images/uploads/2020/studio20-backaityte-0.jpg
 ---
 

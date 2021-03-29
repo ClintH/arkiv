@@ -7,7 +7,7 @@ creators: Igor Kovtun
 year: 2019
 yearLevel: 'Third'
 tags:
-  - tactile
+  - material
   - haptics
   - touch
   - interactivity

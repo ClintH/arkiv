@@ -10,12 +10,10 @@ links:
   miro: https://miro.com/app/board/o9J_krgawuM=/
   zoom: https://mau-se.zoom.us/j/67842598053 
 tags:
-  - Aesthetics
-  - Verification 
-  - Biometric Authentication 
-  - DNA
-  - Security
-  - Trust
+  - aesthetics
+  - biometrics 
+  - security
+  - trust
 image: /images/uploads/2020/studio20-hasselquist-0.png
 ---
 

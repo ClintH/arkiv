@@ -12,10 +12,7 @@ links:
 tags:
   - material
   - light
-  - light interaction
-  - interactive light
-  - attention
-  - 3d spaces
+  - space
 image: /images/uploads/2020/studio20-mikkelsensjoholm-0.png
 ---
 

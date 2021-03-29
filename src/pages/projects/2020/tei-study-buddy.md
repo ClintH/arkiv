@@ -7,6 +7,7 @@ creators: 'Samuel, Miroslav, Karmen, Vera'
 yearLevel: 'Second'
 tags:
   - machine learning
+  - tangible
   - education
 image: /images/uploads/2020/tei-study-buddy-0.jpg
 ---

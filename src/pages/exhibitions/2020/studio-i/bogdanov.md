@@ -13,7 +13,7 @@ tags:
   - aesthetics
   - embodiment
   - gesture
-  - game
+  - play
 image: /images/uploads/2020/studio20-bogdanov-0.jpg
 ---
 

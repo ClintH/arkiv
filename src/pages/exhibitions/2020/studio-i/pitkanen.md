@@ -12,8 +12,8 @@ links:
 tags:
   - material
   - aesthetics
-  - kinetic output
-  - tangible interaction
+  - movement
+  - tangible
 image: /images/uploads/2020/studio20-pitkanen-0.jpg
 ---
 

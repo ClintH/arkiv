@@ -7,13 +7,8 @@ priority: 99
 creators: Max Derlow
 title: Eye tracking properties
 tags: 
-  - eye tracking
   - material
-  - inspirational bits
   - gaze
-  - prototyping
-  - implicit interactivity
-  - expanded bandwidth
 links:
   miro: https://miro.com/app/board/o9J_krmn998=/
   zoom: https://mau-se.zoom.us/j/65532339830

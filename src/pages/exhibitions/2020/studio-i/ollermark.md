@@ -10,10 +10,9 @@ links:
   miro: https://miro.com/app/board/o9J_ksyjPWY=/
   zoom: https://mau-se.zoom.us/j/68092085837
 tags:
-  - body movement
   - embodiment
   - aesthetics
-  - movement experience
+  - movement
 image: /images/uploads/2020/studio20-ollermark-0.png
 ---
 

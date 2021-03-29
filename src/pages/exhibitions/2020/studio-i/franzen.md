@@ -12,11 +12,7 @@ links:
 tags:
   - machine learning
   - material
-  - interactive modalities
-  - gestures
-  - acceleration
-  - orientation
-  - positioning 
+  - gesture
 image: /images/uploads/2020/studio20-franzen-0.jpg
 ---
 

@@ -10,12 +10,9 @@ links:
   miro: https://miro.com/app/board/o9J_krn5cY4=/
   zoom: https://mau-se.zoom.us/j/67026976590
 tags: 
-  - Material
-  - Microcontroller
-  - Paper
-  - Ubiquity
-  - Lo-fidelity material
-  - Arduino
+  - material
+  - paper
+  - ubicomp
 image: /images/uploads/2020/studio20-ehrenbeck-0.jpg
 ---
 

@@ -11,10 +11,6 @@ links:
   zoom: https://mau-se.zoom.us/j/4055472964
 tags:
   - method
-  - empathy
-  - cultural probes
-  - hci toolkit
-  - design probes
 image: /images/uploads/2020/studio20-boateng-0.jpg
 ---
 

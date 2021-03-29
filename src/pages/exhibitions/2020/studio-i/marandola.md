@@ -11,12 +11,6 @@ links:
   zoom: https://mau-se.zoom.us/j/69677215565
 tags:
   - method
-  - video
-  - interactive
-  - prototyping
-  - testing
-  - users
-  - fidelity
 image: /images/uploads/2020/studio20-marandola-0.png
 ---
 

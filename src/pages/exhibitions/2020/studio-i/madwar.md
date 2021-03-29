@@ -10,12 +10,8 @@ links:
   miro: https://miro.com/app/board/o9J_kshmZTQ=/
   zoom: https://mau-se.zoom.us/j/63835173709
 tags:
-  - Method
-  - interactivity
   - design practice
-  - Sketching
-  - Annotation
-  - Ideation
+  - sketching
 image: /images/uploads/2020/studio20-madwar-0.jpg
 ---
 
