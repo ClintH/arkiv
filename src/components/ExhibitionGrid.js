@@ -38,57 +38,9 @@ class ExhibitionItemHead extends React.Component {
   }
 }
 
-
-class ExhibitionItemButton extends React.Component {
-  render() {
-    return (
-      
-      <a className="button is-small"
-        style={{marginTop: "1rem"}} 
-        href={this.props.link}
-         target="_blank" rel="noopener noreferrer"
-         title={this.props.label} >
-        {this.props.label}
-      </a>
-    );
-  }
-}
-
-class ExhibitionItemButtons extends React.Component {
-  render() {
-    return (
-      <div className="buttons are-small" >
-        <ExhibitionItemButton label="Zoom" link={this.props.links.zoom} />
-        <ExhibitionItemButton label="Miro" link={this.props.links.miro} />
-      </div>
-    );
-  }
-}
-
-class ExhibitionItemTags extends React.Component {
-  render() {
-    const categories = new Set(["aesthetics", "material", "method"]);
-    return (
-      <div className="tags">
-        {this.props.tags.map(tag => <span key={tag} className="tag">
-                                      {categories.has(tag.toLowerCase())
-                                       ? <strong>{tag.toLowerCase()}</strong>
-                                         : tag.toLowerCase() }</span>)}
-      </div>
-    );
-  }
-}
-
 class ExhibitionItem extends React.Component {
   render() {
     const p = this.props.project;
-    let extended;
-    if (this.props.live) {
-      extended = <>
-        <ExhibitionItemButtons links={p.frontmatter.links} />
-        <ExhibitionItemTags tags={p.frontmatter.tags} />
-        </>
-    }
     return (
       <div key={p.frontmatter.id} className="column tile is-parent is-vertical is-4" >
         <div className="tile is-parent is-vertical" >
@@ -96,7 +48,6 @@ class ExhibitionItem extends React.Component {
           <div className="tile is-child">
             <ExhibitionItemHead creators={p.frontmatter.creators} title={p.frontmatter.title} />
             <div dangerouslySetInnerHTML={{ __html: p.html }} /> {/* body */}
-            {extended}
           </div>
         </div>
       </div>
