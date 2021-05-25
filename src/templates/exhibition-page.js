@@ -4,13 +4,6 @@ import Helmet from 'react-helmet';
 import Layout from '../components/Layout';
 import ExhibitionGrid from '../components/ExhibitionGrid';
 
-// NOTE
-/* An exhibition page features a header with an introduction and then a grid of projects.
-   These projects do not have their own pages. If a 'visitor' wants to see a project, it has
-   to do so via a link to a student's Zoom. Very 2014-ephemeral.
-   
-   — LLA 200528 */
-
 class ExhibitionPageHead extends React.Component {
   render() {
     return (
@@ -26,16 +19,24 @@ class ExhibitionPageHead extends React.Component {
   }
 }
 
+function filterMatchingProjects(projects, exhibition) {
+  return projects.filter(({node}) =>
+    node.frontmatter.year === exhibition.frontmatter.year &&
+      node.frontmatter.course === exhibition.frontmatter.course
+  )
+}
+
+
 class ExhibitionPage extends React.Component {
   render() {
     const exhibition = this.props.data.exhibition;
-    const projects = this.props.data.projects.edges;
-    const head = <ExhibitionPageHead exhibition={exhibition} />;
+    const head       = <ExhibitionPageHead exhibition={exhibition}/>;
+    const projects   = filterMatchingProjects(this.props.data.projects.edges, exhibition);
 
     return (
       <Layout>
         <section className="section">
-          <Helmet title={`Arkixd. ${exhibition.frontmatter.title}`} />
+          <Helmet title={`Arkixd.Exhibition. ${exhibition.frontmatter.title}.${exhibition.frontmatter.year}.`} />
           {head}
           <ExhibitionGrid live={exhibition.frontmatter.live} projects={projects} />
         </section>
@@ -66,12 +67,7 @@ query ExhibitionQuery($id: String!) {
           year
           course
           title
-          tags
           priority
-          links {
-            miro
-            zoom
-          }
           creators
           image {
             childImageSharp {
@@ -86,3 +82,4 @@ query ExhibitionQuery($id: String!) {
   }
 }
 `;
+
