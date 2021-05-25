@@ -19,19 +19,14 @@ class ExhibitionPageHead extends React.Component {
   }
 }
 
-function filterMatchingProjects(projects, exhibition) {
-  return projects.filter(({node}) =>
-    node.frontmatter.year === exhibition.frontmatter.year &&
-      node.frontmatter.course === exhibition.frontmatter.course
-  )
-}
-
-
 class ExhibitionPage extends React.Component {
   render() {
     const exhibition = this.props.data.exhibition;
     const head       = <ExhibitionPageHead exhibition={exhibition}/>;
-    const projects   = filterMatchingProjects(this.props.data.projects.edges, exhibition);
+    const projects   = this.props.data.projects.edges.filter(project =>
+      project.node.frontmatter.year === exhibition.frontmatter.year
+        && project.node.frontmatter.course === exhibition.frontmatter.course
+    )
 
     return (
       <Layout>
