@@ -1,20 +1,79 @@
+import { GatsbyImage } from "gatsby-plugin-image"
+import { graphql } from 'gatsby';
+import Helmet from 'react-helmet';
 import React from 'react';
 
+import Layout from '../components/Layout';
 
-// NOTE
-/* Project posts in exhibitions currently have `exhibiton-post` as a template key.
- I don't render these on their own, but Gatsby rightfully complains when it can't find 
- the corresponding template. So instead of changing all of the template keys with a quick sed
- I kept this here, in case there comes a point when one wants to have an exhibit with posts.
+class ExhibitionPostHead extends React.Component {
+  render() {
+    const { title, year, image, creators, course } = this.props.frontmatter;
+    const credits = [creators + ",", year, course ].join(" ");
 
- — LLA 200528 */
+    return (
+      <section>
+        <div className="hero">
+          <GatsbyImage className="hero-body"
+                       formats={["auto", "webp", "avif"]}
+                       alt={title}
+                       image={image.childImageSharp.gatsbyImageData}
+          />
+        </div>
+
+        <div className="section container" style={{paddingBottom: "0"}}>
+          <h1 className="is-size-2 has-text-weight-bold">
+            {title}
+          </h1>
+          <h3 className="is-size-6 is-uppercase" style={{paddingTop: "0"}}>
+            {credits}
+          </h3>
+        </div>
+      </section>
+    )
+  }
+}
 
 class ExhibitionPost extends React.Component {
   render() {
+    const project = this.props.data.markdownRemark;
+
     return (
-      <div> PHONY </div>
+      <Layout>
+        <Helmet title={`Arkixd.${project.frontmatter.title}`} />
+        <ExhibitionPostHead frontmatter={project.frontmatter} />
+        <section className="section container">
+          <div dangerouslySetInnerHTML={{ __html: project.html }} />
+
+        </section>
+      </Layout>
     );
   }
 }
 
 export default ExhibitionPost;
+
+export const pageQuery = graphql`
+  query ExhibitionPostById($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      id
+      html
+      frontmatter {
+        year
+        course
+        title
+        subTitle
+        tags
+        creators
+        image {
+          childImageSharp {
+            gatsbyImageData(
+              quality: 90
+              formats: [AUTO, WEBP, AVIF]
+              transformOptions: { fit: COVER }
+            )
+          }
+        }
+      }
+    }
+  }
+`;
