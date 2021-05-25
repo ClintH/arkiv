@@ -6,12 +6,15 @@ import ExhibitionGrid from '../components/ExhibitionGrid';
 
 class ExhibitionPageHead extends React.Component {
   render() {
+    const { frontmatter: {title}, html } = this.props.exhibition;
+
     return (
       <div className="container content">
-        <h1>{this.props.exhibition.frontmatter.title}</h1>
+        <h1>{title}</h1>
         <div className="section tile is-ancestor">
-          <div className="is-parent is-6" >
-            <div className="tile is-child" dangerouslySetInnerHTML={{ __html: this.props.exhibition.html }} />
+          <div className="is-parent is-6">
+            <div className="tile is-child"
+                 dangerouslySetInnerHTML={{ __html: html}} />
           </div>
         </div>
       </div>
@@ -22,17 +25,14 @@ class ExhibitionPageHead extends React.Component {
 class ExhibitionPage extends React.Component {
   render() {
     const exhibition = this.props.data.exhibition;
-    const head       = <ExhibitionPageHead exhibition={exhibition}/>;
     const projects   = this.props.data.projects.edges.filter(project =>
-      project.node.frontmatter.year === exhibition.frontmatter.year
-        && project.node.frontmatter.course === exhibition.frontmatter.course
-    )
+      project.node.frontmatter.year === exhibition.frontmatter.year && project.node.frontmatter.course === exhibition.frontmatter.course)
 
     return (
       <Layout>
         <section className="section">
           <Helmet title={`Arkixd.Exhibition. ${exhibition.frontmatter.title}.${exhibition.frontmatter.year}.`} />
-          {head}
+          <ExhibitionPageHead exhibition={exhibition}/>
           <ExhibitionGrid live={exhibition.frontmatter.live} projects={projects} />
         </section>
       </Layout>
@@ -58,6 +58,9 @@ query ExhibitionQuery($id: String!) {
       node {
         id
         html
+        fields {
+          slug
+        }
         frontmatter {
           year
           course
