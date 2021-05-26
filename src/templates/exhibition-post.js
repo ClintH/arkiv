@@ -20,11 +20,13 @@ class ExhibitionPostHead extends React.Component {
           />
         </div>
 
-        <div className="section container" style={{paddingBottom: "0"}}>
+        <div className="section container"
+             style={{paddingBottom: "0"}}>
           <h1 className="is-size-2 has-text-weight-bold">
             {title}
           </h1>
-          <h3 className="is-size-6 is-uppercase" style={{paddingTop: "0"}}>
+          <h3 className="is-size-6 is-uppercase"
+              style={{paddingTop: "0"}}>
             {credits}
           </h3>
         </div>
@@ -33,17 +35,42 @@ class ExhibitionPostHead extends React.Component {
   }
 }
 
+class ExhibitionPostVideoEmbed extends React.Component {
+  render() {
+    return (
+      <div className="content"
+           style={{position:      "relative",
+                   paddingBottom: "56.25%",
+                   height:        "0",
+                   width:         "100%",}}>
+        <iframe src="https://www.youtube.com/embed/yJDv-zdhzMY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                style={{position: "absolute",
+                        top:      "0",
+                        bottom:   "0",
+                        width:    "100%",
+                        height:   "100%"}}>
+        </iframe>
+      </div>
+    )
+  }
+}
+
 class ExhibitionPost extends React.Component {
   render() {
     const project = this.props.data.markdownRemark;
+    const hasVideo = project.frontmatter.youtubeID;
 
     return (
       <Layout>
         <Helmet title={`Arkixd.${project.frontmatter.title}`} />
         <ExhibitionPostHead frontmatter={project.frontmatter} />
         <section className="section container">
+          { hasVideo ? <ExhibitionPostVideoEmbed video={hasVideo} /> : null }
           <div dangerouslySetInnerHTML={{ __html: project.html }} />
-
         </section>
       </Layout>
     );
@@ -64,6 +91,7 @@ export const pageQuery = graphql`
         subTitle
         tags
         creators
+        youtubeID
         image {
           childImageSharp {
             gatsbyImageData(
