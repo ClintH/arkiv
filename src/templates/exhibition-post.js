@@ -38,22 +38,27 @@ class ExhibitionPostHead extends React.Component {
 class ExhibitionPostVideoEmbed extends React.Component {
   render() {
     return (
-      <div className="content"
-           style={{position:      "relative",
-                   paddingBottom: "56.25%",
-                   height:        "0",
-                   width:         "100%",}}>
-        <iframe src="https://www.youtube.com/embed/yJDv-zdhzMY"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-                style={{position: "absolute",
-                        top:      "0",
-                        bottom:   "0",
-                        width:    "100%",
-                        height:   "100%"}}>
-        </iframe>
+      <div className="column is-half is-16by9">
+        <div style={{position:      "relative",
+                     paddingBottom: "56.25%",
+                  height:        "0",}}
+        >
+          <iframe className="has-ratio"
+                  width="640"
+                  height="360"
+                  src="https://www.youtube.com/embed/yJDv-zdhzMY"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  style={{position: "absolute",
+                          top:      "0",
+                          bottom:   "0",
+                          width:    "100%",
+                          height:   "100%"}}
+          >
+          </iframe>
+        </div>
       </div>
     )
   }
@@ -68,9 +73,12 @@ class ExhibitionPost extends React.Component {
       <Layout>
         <Helmet title={`Arkixd.${project.frontmatter.title}`} />
         <ExhibitionPostHead frontmatter={project.frontmatter} />
-        <section className="section container">
-          { hasVideo ? <ExhibitionPostVideoEmbed video={hasVideo} /> : null }
-          <div dangerouslySetInnerHTML={{ __html: project.html }} />
+        <section className="section content container">
+          <div className="columns">
+            <div className="column is-half is-vertical"
+                 dangerouslySetInnerHTML={{ __html: project.html }} />
+            { hasVideo ? <ExhibitionPostVideoEmbed video={hasVideo} /> : null }
+          </div>
         </section>
       </Layout>
     );
