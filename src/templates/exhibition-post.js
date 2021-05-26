@@ -41,7 +41,7 @@ class ExhibitionPostVideoEmbed extends React.Component {
       <div className="column is-half is-16by9">
         <div style={{position:      "relative",
                      paddingBottom: "56.25%",
-                  height:        "0",}}
+                     height:        "0"}}
         >
           <iframe className="has-ratio"
                   width="640"
@@ -64,6 +64,35 @@ class ExhibitionPostVideoEmbed extends React.Component {
   }
 }
 
+class ExhibitionPostWithVideo extends React.Component {
+  render() {
+    const {frontmatter: {youtubeID}, html} = this.props.project;
+    return (
+      <section className="section content container">
+        <div className="columns is-variable is-8-desktop">
+          <div className="column is-half is-vertical"
+               dangerouslySetInnerHTML={{ __html: html }} />
+          <ExhibitionPostVideoEmbed video={youtubeID} />
+        </div>
+      </section>
+    )
+  }
+}
+
+class ExhibitionPostWithoutVideo extends React.Component {
+  render() {
+    const {frontmatter: {}, html} = this.props.project;
+    return (
+      <section className="section content container">
+        <div className="columns is-variable is-8-desktop">
+          <div className="column is-half is-vertical"
+               dangerouslySetInnerHTML={{ __html: html }} />
+        </div>
+      </section>
+    )
+  }
+}
+
 class ExhibitionPost extends React.Component {
   render() {
     const project = this.props.data.markdownRemark;
@@ -73,13 +102,9 @@ class ExhibitionPost extends React.Component {
       <Layout>
         <Helmet title={`Arkixd.${project.frontmatter.title}`} />
         <ExhibitionPostHead frontmatter={project.frontmatter} />
-        <section className="section content container">
-          <div className="columns">
-            <div className="column is-half is-vertical"
-                 dangerouslySetInnerHTML={{ __html: project.html }} />
-            { hasVideo ? <ExhibitionPostVideoEmbed video={hasVideo} /> : null }
-          </div>
-        </section>
+        { hasVideo
+          ? <ExhibitionPostWithVideo    project={project} />
+          : <ExhibitionPostWithoutVideo project={project} /> }
       </Layout>
     );
   }
