@@ -11,7 +11,8 @@ class ExhibitionPageHead extends React.Component {
     return (
       <div className="container content">
         <h1>{title}</h1>
-        <div className="section tile is-ancestor">
+        <div className="section tile is-ancestor"
+             style={{maxWidth: "800px"}}>
           <div className="is-parent is-6">
             <div className="tile is-child"
                  dangerouslySetInnerHTML={{ __html: html}} />
@@ -53,7 +54,7 @@ query ExhibitionQuery($id: String!) {
       title
     }
   }
-  projects: allMarkdownRemark(sort: {order: ASC, fields: [frontmatter___priority]}, filter: {frontmatter: {templateKey: {eq: "exhibition-post"}}}) {
+  projects: allMarkdownRemark(sort: {order: ASC, fields: [frontmatter___creators]}, filter: {frontmatter: {templateKey: {eq: "exhibition-post"}}}) {
     edges {
       node {
         id

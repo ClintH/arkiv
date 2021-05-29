@@ -38,25 +38,23 @@ class ExhibitionPostHead extends React.Component {
 class ExhibitionPostVideoEmbed extends React.Component {
   render() {
     return (
-      <div className="column is-half is-16by9">
+      <div className="column is-half">
         <div style={{position:      "relative",
                      paddingBottom: "56.25%",
-                     height:        "0"}}
-        >
+                     height:        "0"}}>
           <iframe className="has-ratio"
                   width="640"
                   height="360"
-                  src="https://www.youtube.com/embed/yJDv-zdhzMY"
+                  src={"https://www.youtube.com/embed/" + this.props.video}
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                   style={{position: "absolute",
-                          top:      "0",
-                          bottom:   "0",
-                          width:    "100%",
-                          height:   "100%"}}
-          >
+                    top:      "0",
+                    bottom:   "0",
+                    width:    "100%",
+                    height:   "100%"}}>
           </iframe>
         </div>
       </div>
@@ -64,30 +62,26 @@ class ExhibitionPostVideoEmbed extends React.Component {
   }
 }
 
-class ExhibitionPostWithVideo extends React.Component {
+class ExhibitionPostBody extends React.Component {
   render() {
-    const {frontmatter: {youtubeID}, html} = this.props.project;
-    return (
-      <section className="section content container">
-        <div className="columns is-variable is-8-desktop">
-          <div className="column is-half is-vertical"
-               dangerouslySetInnerHTML={{ __html: html }} />
-          <ExhibitionPostVideoEmbed video={youtubeID} />
-        </div>
-      </section>
-    )
-  }
-}
+    const { frontmatter: { youtubeID, year, imagePrefix, gifs }, html } = this.props.project;
+    const imagePathBase = "/images/uploads/" + year.toString().substring(0, 4) + "/" + imagePrefix + "-";
 
-class ExhibitionPostWithoutVideo extends React.Component {
-  render() {
-    const {frontmatter: {}, html} = this.props.project;
     return (
       <section className="section content container">
-        <div className="columns is-variable is-8-desktop">
-          <div className="column is-half is-vertical"
+        <div className="columns is-multiline">
+          <div className="column is-half"
                dangerouslySetInnerHTML={{ __html: html }} />
-        </div>
+          {youtubeID
+           ? <ExhibitionPostVideoEmbed video={youtubeID} />
+           : <div className="column is-half" />}
+          {[1, 2, 3, 4].map(i =>
+            <div className="column is-half">
+              <img alt={""}
+                   src={imagePathBase + i.toString() + (gifs.includes(i) ? ".gif" : ".jpg")} />
+            </div>
+          )}
+      </div>
       </section>
     )
   }
@@ -96,15 +90,12 @@ class ExhibitionPostWithoutVideo extends React.Component {
 class ExhibitionPost extends React.Component {
   render() {
     const project = this.props.data.markdownRemark;
-    const hasVideo = project.frontmatter.youtubeID;
 
     return (
       <Layout>
         <Helmet title={`Arkixd.${project.frontmatter.title}`} />
         <ExhibitionPostHead frontmatter={project.frontmatter} />
-        { hasVideo
-          ? <ExhibitionPostWithVideo    project={project} />
-          : <ExhibitionPostWithoutVideo project={project} /> }
+        <ExhibitionPostBody project={project} />
       </Layout>
     );
   }
@@ -125,6 +116,8 @@ export const pageQuery = graphql`
         tags
         creators
         youtubeID
+        imagePrefix
+        gifs
         image {
           childImageSharp {
             gatsbyImageData(

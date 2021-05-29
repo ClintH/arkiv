@@ -7,7 +7,7 @@ function capitalize(s) {
 }
 
 function titleCase(s) {
-  const stopWords = new Set(["a", "the", "of", "in", "and", "for", "as", "an", "from", "to"]);
+  const stopWords = new Set(["a", "the", "of", "in", "and", "for", "as", "an", "from", "when", "to"]);
   return s.split(" ").map(word => (stopWords.has(word)) ? word : capitalize(word)).join(" ");
 }
 
