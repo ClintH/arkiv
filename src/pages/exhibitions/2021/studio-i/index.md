@@ -6,4 +6,4 @@ course: studio 1
 image: /images/uploads/2021/studio21-lindholm-0.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse odio ipsum, gravida sit amet faucibus eu, semper id felis. Cras volutpat, metus sed molestie sollicitudin, mi sapien sodales sem, vitae sagittis urna metus sed nulla. In eget elementum erat, ac commodo erat. Proin non laoreet lectus. Proin placerat leo sed ullamcorper pellentesque. Vivamus vel augue diam. Aenean vestibulum fermentum odio, quis ultrices libero gravida sit amet. Praesent vel iaculis justo. Vestibulum ac dapibus quam.
+Year 1 students have for 5 weeks been designing for *connecting people over distance* — mainly within the three domains of *leisure,* *work* or *close relations.* The projects are individual and built on a full design process from fieldwork to prototyping as well as a prior extensive literature and design review. The design works and insights will also be presented in the scholarly format of a Pictorial.
