@@ -75,13 +75,14 @@ class ExhibitionPostBody extends React.Component {
           {youtubeID
            ? <ExhibitionPostVideoEmbed video={youtubeID} />
            : <div className="column is-half" />}
-          {[1, 2, 3, 4].map(i =>
-            <div className="column is-half">
+          {gifs
+           ? [1, 2, 3, 4].map(i =>
+             <div className="column is-half">
               <img alt={""}
                    src={imagePathBase + i.toString() + (gifs.includes(i) ? ".gif" : ".jpg")} />
-            </div>
-          )}
-      </div>
+            </div>)
+           : null }
+        </div>
       </section>
     )
   }
