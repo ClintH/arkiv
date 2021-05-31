@@ -6,11 +6,12 @@ import ExhibitionGrid from '../components/ExhibitionGrid';
 
 class ExhibitionPageHead extends React.Component {
   render() {
-    const { frontmatter: {title}, html } = this.props.exhibition;
+    const { frontmatter: {title, year}, html } = this.props.exhibition;
 
     return (
       <div className="container content">
         <h1>{title}</h1>
+        <h4>Exhibition {year}</h4>
         <div className="section tile is-ancestor"
              style={{maxWidth: "800px"}}>
           <div className="is-parent is-6">
