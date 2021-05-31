@@ -3,7 +3,7 @@ module.exports = {
     title: 'Arkixd',
     shortName: 'Arkixd'
   },
-  flags: { PRESERVE_WEBPACK_CACHE: true },
+  flags: {PRESERVE_WEBPACK_CACHE: true},
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
@@ -67,12 +67,6 @@ module.exports = {
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    {
-      resolve: 'gatsby-plugin-netlify-cms',
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`
-      }
-    },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
