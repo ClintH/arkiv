@@ -4,7 +4,7 @@ templateKey: exhibition-post
 yearLevel: 'First'
 year: 2021.1
 priority: 1
-title: Where is:
+title: 'Where is:'
 creators: Olof Ingelsten
 image: /images/uploads/2021/studio21-ingelsten-0.jpg
 imagePrefix: studio21-ingelsten
