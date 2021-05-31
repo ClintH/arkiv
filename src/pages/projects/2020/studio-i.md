@@ -23,6 +23,9 @@ Our first year students in Interaction Design present the outcomes of a short in
 
 The word "seamless" is often heard describing an experience of an interactive artifact. This might mean that the interaction was smooth, effortless and didn't demand the user to really stop and think. Academics have criticized this strive for seamless artifacts and have thus given examples of "seamful" artifacts instead. The issue with this supposed opposite is that "seamfulness" is poorly defined, leading to confusing conclusions of what seamfulness is or isn't. Through my research I realized that seamful design can lead to a seamless interactions - and seamless design can lead to seamful interactions. Since this sounds like a contradiction I decided to devote this "Studio" course to further explore and experiment with these aesthetics.
 
+[Try the mock-up](https://xd.adobe.com/view/4c394878-71b3-466f-7489-aae35e3e6e36-3a08/)
+
+
 ![](/images/uploads/2020/studio20-isaksson-0.png)
 </div>
 

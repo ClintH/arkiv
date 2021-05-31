@@ -61,6 +61,11 @@ title: Students. Past and present.
 
 # Current
 
+[Isak Eklund](http://www.isakeklund.se)
+
+[Clara Isaksson](https://www.claraisakssonux.com/)
+
 [Kim Sundnér](http://kimsundner.com)
+
 
 Additions or corrections? Please contact the programme coordinator.
