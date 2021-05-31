@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import Img from "gatsby-image"
 import React from 'react';
 
@@ -6,7 +7,7 @@ function capitalize(s) {
 }
 
 function titleCase(s) {
-  const stopWords = new Set(["a", "the", "of", "in", "and", "for", "as", "an", "from", "to"]);
+  const stopWords = new Set(["a", "the", "of", "in", "and", "for", "as", "an", "from", "when", "to"]);
   return s.split(" ").map(word => (stopWords.has(word)) ? word : capitalize(word)).join(" ");
 }
 
@@ -38,68 +39,19 @@ class ExhibitionItemHead extends React.Component {
   }
 }
 
-
-class ExhibitionItemButton extends React.Component {
-  render() {
-    return (
-      
-      <a className="button is-small"
-        style={{marginTop: "1rem"}} 
-        href={this.props.link}
-         target="_blank" rel="noopener noreferrer"
-         title={this.props.label} >
-        {this.props.label}
-      </a>
-    );
-  }
-}
-
-class ExhibitionItemButtons extends React.Component {
-  render() {
-    return (
-      <div className="buttons are-small" >
-        <ExhibitionItemButton label="Zoom" link={this.props.links.zoom} />
-        <ExhibitionItemButton label="Miro" link={this.props.links.miro} />
-      </div>
-    );
-  }
-}
-
-class ExhibitionItemTags extends React.Component {
-  render() {
-    const categories = new Set(["aesthetics", "material", "method"]);
-    return (
-      <div className="tags">
-        {this.props.tags.map(tag => <span key={tag} className="tag">
-                                      {categories.has(tag.toLowerCase())
-                                       ? <strong>{tag.toLowerCase()}</strong>
-                                         : tag.toLowerCase() }</span>)}
-      </div>
-    );
-  }
-}
-
 class ExhibitionItem extends React.Component {
   render() {
     const p = this.props.project;
-    let extended;
-    if (this.props.live) {
-      extended = <>
-        <ExhibitionItemButtons links={p.frontmatter.links} />
-        <ExhibitionItemTags tags={p.frontmatter.tags} />
-        </>
-    }
     return (
       <div key={p.frontmatter.id} className="column tile is-parent is-vertical is-4" >
-        <div className="tile is-parent is-vertical" >
+        <Link to={p.fields.slug} className="tile is-parent is-vertical" >
           <ExhibitionItemImage image={p.frontmatter.image} />
           <div className="tile is-child">
             <ExhibitionItemHead creators={p.frontmatter.creators} title={p.frontmatter.title} />
-            <div dangerouslySetInnerHTML={{ __html: p.html }} /> {/* body */}
-            {extended}
-          </div>
-        </div>
-      </div>
+            {/* <div dangerouslySetInnerHTML={{ __html: p.html }} /> */} 
+            </div>
+            </Link>
+            </div>
     );
   }
 }
@@ -108,7 +60,8 @@ export default class ExhibitionGrid extends React.Component {
   render() {
     return (
       <main role="main" className="columns is-multiline is-desktop">
-        {this.props.projects.map(({ node: project }) => <ExhibitionItem live={this.props.live} key={project.id} project={project} />)}
+        {this.props.projects.map(({ node: project }) =>
+          <ExhibitionItem live={this.props.live} key={project.id} project={project} />)}
       </main>
     );
   }

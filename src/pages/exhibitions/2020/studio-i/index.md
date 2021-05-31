@@ -4,7 +4,6 @@ title: Studio I
 year: 2020
 course: studio 1
 image: /images/uploads/2020/studio20-deltreppo-0.jpg
-live: false
 ---
 
 Welcome to the Studio-1, end-of-year exhibition!
