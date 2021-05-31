@@ -52,7 +52,8 @@
   "main": "n/a",
   "scripts": {
     "start": "npm run develop",
-    "build": "cross-env GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
+    "buildLocal": "cross-env GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
+    "build": "cross-env GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build",
     "clean": "gatsby clean",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
