@@ -5,6 +5,7 @@ module.exports = {
   },
   flags: {PRESERVE_WEBPACK_CACHE: true},
   plugins: [
+    'gatsby-plugin-remove-fingerprints',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-netlify-cms-paths',
