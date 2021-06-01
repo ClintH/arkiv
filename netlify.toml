@@ -1,6 +1,7 @@
 [build]
   publish = "public"
-  command = "CI= npm run build"
+  command = "CI= npm run build || { cat /opt/buildhome/.npm/_logs/* ; sleep 30 ; false; }"
+  commandX = "CI= npm run build"
 [build.environment]
   YARN_VERSION = "1.3.2"
   YARN_FLAGS = "--no-ignore-optional"
